@@ -10,7 +10,7 @@ I'm Burak, based in Oslo. I contribute upstream to open-source robotics, autonom
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**13** pull requests to **6** projects · ✅ 3 merged · ⏳ 10 in review
+**13** pull requests to **6** projects · ✅ 3 merged · 👍 1 approved · ⏳ 9 in review
 
 #### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
 MAVLink proxy and command-line ground station: console completion fixes.
@@ -20,7 +20,7 @@ MAVLink proxy and command-line ground station: console completion fixes.
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard and rover fixes.
 
-- ⏳ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>in review, opened Sep 29, 2026</sub>
+- 👍 [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>approved, opened Sep 29, 2026</sub>
 - ⏳ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>in review, opened Sep 28, 2026</sub>
 
 #### [CARLA](https://github.com/carla-simulator/carla)
