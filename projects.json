@@ -1,7 +1,7 @@
 {
   "PX4/PX4-Autopilot": {
     "name": "PX4 Autopilot",
-    "summary": "Drone flight stack: rover build fixes."
+    "summary": "Drone flight stack: fixed-wing Offboard and rover fixes."
   },
   "ArduPilot/ardupilot": {
     "name": "ArduPilot",
@@ -18,5 +18,9 @@
   "ollama/ollama": {
     "name": "Ollama",
     "summary": "Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Silicon."
+  },
+  "ArduPilot/MAVProxy": {
+    "name": "MAVProxy",
+    "summary": "MAVLink proxy and command-line ground station: console completion fixes."
   }
 }

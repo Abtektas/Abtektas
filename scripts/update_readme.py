@@ -106,7 +106,8 @@ def escape(text):
 def summarize(prs):
     counts = {}
     for pr in prs:
-        counts[status_of(pr)] = counts.get(status_of(pr), 0) + 1
+        status = status_of(pr)
+        counts[status] = counts.get(status, 0) + 1
     return " · ".join(
         f"{icon} {counts[key]} {label}"
         for key, (icon, label) in STATUSES.items()
@@ -151,10 +152,10 @@ def render(prs, projects):
 
 
 def main():
-    projects = json.loads(PROJECTS.read_text()) if PROJECTS.exists() else {}
+    projects = json.loads(PROJECTS.read_text(encoding="utf-8")) if PROJECTS.exists() else {}
     body = render(fetch_pull_requests(), projects)
 
-    original = README.read_text()
+    original = README.read_text(encoding="utf-8")
     pattern = re.compile(
         r"(<!-- CONTRIBUTIONS:START -->\n).*?(<!-- CONTRIBUTIONS:END -->)", re.S
     )
@@ -173,7 +174,7 @@ def main():
         f"[GitHub Actions](.github/workflows/update-readme.yml)</sub>",
         updated,
     )
-    README.write_text(updated)
+    README.write_text(updated, encoding="utf-8")
     print("README.md updated.")
 
 
