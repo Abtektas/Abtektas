@@ -1,0 +1,22 @@
+{
+  "PX4/PX4-Autopilot": {
+    "name": "PX4 Autopilot",
+    "summary": "Drone flight stack: rover build fixes."
+  },
+  "ArduPilot/ardupilot": {
+    "name": "ArduPilot",
+    "summary": "Drone flight stack: SITL autotests and HAL test fixes."
+  },
+  "mavlink/qgroundcontrol": {
+    "name": "QGroundControl",
+    "summary": "Ground control station: MAVLink COMMAND_INT support and mission command handling."
+  },
+  "carla-simulator/carla": {
+    "name": "CARLA",
+    "summary": "Autonomous-driving simulator: Python API agents, examples and docs."
+  },
+  "ollama/ollama": {
+    "name": "Ollama",
+    "summary": "Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Silicon."
+  }
+}
