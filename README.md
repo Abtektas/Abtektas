@@ -10,7 +10,16 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**13** pull requests to **6** projects · ✅ 3 merged · 👍 1 approved · ⏳ 9 in review
+**14** pull requests to **6** projects · ✅ 6 merged · ⏳ 8 in review
+
+#### [CARLA](https://github.com/carla-simulator/carla)
+Autonomous-driving simulator: Python API agents, examples and docs.
+
+- ⏳ [docs(python): use the bindings' keyword argument names](https://github.com/carla-simulator/carla/pull/9918) <sub>in review, opened Sep 30, 2026</sub>
+- ✅ [docs: state that actor velocities use world coordinates](https://github.com/carla-simulator/carla/pull/9916) <sub>merged Sep 30, 2026</sub>
+- ✅ [docs: update walker skeleton tutorial to the current bone API](https://github.com/carla-simulator/carla/pull/9915) <sub>merged Sep 30, 2026</sub>
+- ✅ [fix(agents): handle a missing incoming waypoint in BehaviorAgent](https://github.com/carla-simulator/carla/pull/9912) <sub>merged Sep 29, 2026</sub>
+- ✅ [fix(python): honour --show-* flags in no_rendering_mode map cache](https://github.com/carla-simulator/carla/pull/9910) <sub>merged Sep 29, 2026</sub>
 
 #### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
 MAVLink proxy and command-line ground station: console completion fixes.
@@ -20,16 +29,8 @@ MAVLink proxy and command-line ground station: console completion fixes.
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard and rover fixes.
 
-- 👍 [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>approved, opened Sep 29, 2026</sub>
+- ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
 - ⏳ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>in review, opened Sep 28, 2026</sub>
-
-#### [CARLA](https://github.com/carla-simulator/carla)
-Autonomous-driving simulator: Python API agents, examples and docs.
-
-- ⏳ [docs: state that actor velocities use world coordinates](https://github.com/carla-simulator/carla/pull/9916) <sub>in review, opened Sep 29, 2026</sub>
-- ⏳ [docs: update walker skeleton tutorial to the current bone API](https://github.com/carla-simulator/carla/pull/9915) <sub>in review, opened Sep 29, 2026</sub>
-- ✅ [fix(agents): handle a missing incoming waypoint in BehaviorAgent](https://github.com/carla-simulator/carla/pull/9912) <sub>merged Sep 29, 2026</sub>
-- ✅ [fix(python): honour --show-* flags in no_rendering_mode map cache](https://github.com/carla-simulator/carla/pull/9910) <sub>merged Sep 29, 2026</sub>
 
 #### [ArduPilot](https://github.com/ArduPilot/ardupilot)
 Drone flight stack: SITL autotests and HAL test fixes.
@@ -50,4 +51,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Sep 29, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Sep 30, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
