@@ -10,12 +10,14 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**14** pull requests to **6** projects · ✅ 6 merged · ⏳ 8 in review
+**16** pull requests to **6** projects · ✅ 7 merged · ⏳ 9 in review
 
 #### [CARLA](https://github.com/carla-simulator/carla)
 Autonomous-driving simulator: Python API agents, examples and docs.
 
-- ⏳ [docs(python): use the bindings' keyword argument names](https://github.com/carla-simulator/carla/pull/9918) <sub>in review, opened Sep 30, 2026</sub>
+- ⏳ [docs(python): fix the Python API snippets and remaining keyword names](https://github.com/carla-simulator/carla/pull/9921) <sub>in review, opened Sep 30, 2026</sub>
+- ⏳ [fix(python): import sys in the manual_control examples](https://github.com/carla-simulator/carla/pull/9920) <sub>in review, opened Sep 30, 2026</sub>
+- ✅ [docs(python): use the bindings' keyword argument names](https://github.com/carla-simulator/carla/pull/9918) <sub>merged Sep 30, 2026</sub>
 - ✅ [docs: state that actor velocities use world coordinates](https://github.com/carla-simulator/carla/pull/9916) <sub>merged Sep 30, 2026</sub>
 - ✅ [docs: update walker skeleton tutorial to the current bone API](https://github.com/carla-simulator/carla/pull/9915) <sub>merged Sep 30, 2026</sub>
 - ✅ [fix(agents): handle a missing incoming waypoint in BehaviorAgent](https://github.com/carla-simulator/carla/pull/9912) <sub>merged Sep 29, 2026</sub>
