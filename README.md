@@ -3,7 +3,7 @@
   <img alt="Ahmet Burak Tektas: robotics, autonomous-driving simulation and local LLMs" src="assets/header-light.svg" width="100%">
 </picture>
 
-I'm Burak, based in Oslo. I contribute upstream to open-source robotics, autonomous-driving simulation and local LLM projects, mostly fixing correctness bugs, protocol edge cases and test gaps.
+I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, autonomous-driving simulation and local LLM projects.
 
 <a href="https://linkedin.com/in/abtektas"><img alt="Connect on LinkedIn" src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
