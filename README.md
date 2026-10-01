@@ -10,13 +10,14 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**16** pull requests to **6** projects · ✅ 7 merged · ⏳ 9 in review
+**17** pull requests to **6** projects · ✅ 9 merged · ⏳ 8 in review
 
 #### [CARLA](https://github.com/carla-simulator/carla)
 Autonomous-driving simulator: Python API agents, examples and docs.
 
-- ⏳ [docs(python): fix the Python API snippets and remaining keyword names](https://github.com/carla-simulator/carla/pull/9921) <sub>in review, opened Sep 30, 2026</sub>
-- ⏳ [fix(python): import sys in the manual_control examples](https://github.com/carla-simulator/carla/pull/9920) <sub>in review, opened Sep 30, 2026</sub>
+- ⏳ [docs: fix code examples in the guides that fail when run](https://github.com/carla-simulator/carla/pull/9922) <sub>in review, opened Oct 1, 2026</sub>
+- ✅ [docs(python): fix the Python API snippets and remaining keyword names](https://github.com/carla-simulator/carla/pull/9921) <sub>merged Oct 1, 2026</sub>
+- ✅ [fix(python): import sys in the manual_control examples](https://github.com/carla-simulator/carla/pull/9920) <sub>merged Oct 1, 2026</sub>
 - ✅ [docs(python): use the bindings' keyword argument names](https://github.com/carla-simulator/carla/pull/9918) <sub>merged Sep 30, 2026</sub>
 - ✅ [docs: state that actor velocities use world coordinates](https://github.com/carla-simulator/carla/pull/9916) <sub>merged Sep 30, 2026</sub>
 - ✅ [docs: update walker skeleton tutorial to the current bone API](https://github.com/carla-simulator/carla/pull/9915) <sub>merged Sep 30, 2026</sub>
@@ -53,4 +54,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Sep 30, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Oct 1, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
