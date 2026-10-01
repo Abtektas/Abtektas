@@ -10,11 +10,20 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**17** pull requests to **6** projects · ✅ 9 merged · ⏳ 8 in review
+**22** pull requests to **8** projects · ✅ 10 merged · ⏳ 12 in review
+
+#### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
+Drone flight stack: fixed-wing Offboard and rover fixes.
+
+- ⏳ [fix(ekf2): stop the test replay at the end of the sensor data](https://github.com/PX4/PX4-Autopilot/pull/28958) <sub>in review, opened Oct 1, 2026</sub>
+- ⏳ [fix(control_allocation): scale thrust by the actuators producing it](https://github.com/PX4/PX4-Autopilot/pull/28953) <sub>in review, opened Oct 1, 2026</sub>
+- ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
+- ⏳ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>in review, opened Sep 28, 2026</sub>
 
 #### [CARLA](https://github.com/carla-simulator/carla)
 Autonomous-driving simulator: Python API agents, examples and docs.
 
+- ⏳ [fix(python): report spawn failures in the collision determinism smoke test](https://github.com/carla-simulator/carla/pull/9923) <sub>in review, opened Oct 1, 2026</sub>
 - ⏳ [docs: fix code examples in the guides that fail when run](https://github.com/carla-simulator/carla/pull/9922) <sub>in review, opened Oct 1, 2026</sub>
 - ✅ [docs(python): fix the Python API snippets and remaining keyword names](https://github.com/carla-simulator/carla/pull/9921) <sub>merged Oct 1, 2026</sub>
 - ✅ [fix(python): import sys in the manual_control examples](https://github.com/carla-simulator/carla/pull/9920) <sub>merged Oct 1, 2026</sub>
@@ -24,16 +33,20 @@ Autonomous-driving simulator: Python API agents, examples and docs.
 - ✅ [fix(agents): handle a missing incoming waypoint in BehaviorAgent](https://github.com/carla-simulator/carla/pull/9912) <sub>merged Sep 29, 2026</sub>
 - ✅ [fix(python): honour --show-* flags in no_rendering_mode map cache](https://github.com/carla-simulator/carla/pull/9910) <sub>merged Sep 29, 2026</sub>
 
+#### [pymavlink](https://github.com/ArduPilot/pymavlink)
+python MAVLink interface and utilities
+
+- ⏳ [generator: Swift: use the XML bitmask attribute for option sets](https://github.com/ArduPilot/pymavlink/pull/1299) <sub>in review, opened Oct 1, 2026</sub>
+
+#### [magistrala](https://github.com/absmach/magistrala)
+IoT Platform Framework
+
+- ✅ [MG-3621 - Use the created column for time bounds of JSON formats](https://github.com/absmach/magistrala/pull/3623) <sub>merged Oct 1, 2026</sub>
+
 #### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
 MAVLink proxy and command-line ground station: console completion fixes.
 
 - ⏳ [rline: don't let a short completion rule break the others](https://github.com/ArduPilot/MAVProxy/pull/1765) <sub>in review, opened Sep 29, 2026</sub>
-
-#### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
-Drone flight stack: fixed-wing Offboard and rover fixes.
-
-- ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
-- ⏳ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>in review, opened Sep 28, 2026</sub>
 
 #### [ArduPilot](https://github.com/ArduPilot/ardupilot)
 Drone flight stack: SITL autotests and HAL test fixes.
