@@ -10,7 +10,21 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**22** pull requests to **8** projects · ✅ 11 merged · ⏳ 11 in review
+**23** pull requests to **8** projects · ✅ 13 merged · ⏳ 10 in review
+
+#### [CARLA](https://github.com/carla-simulator/carla)
+Autonomous-driving simulator: Python API agents, examples and docs.
+
+- ⏳ [docs: fix broken internal links](https://github.com/carla-simulator/carla/pull/9927) <sub>in review, opened Oct 2, 2026</sub>
+- ✅ [fix(python): report spawn failures in the collision determinism smoke test](https://github.com/carla-simulator/carla/pull/9923) <sub>merged Oct 2, 2026</sub>
+- ✅ [docs: fix code examples in the guides that fail when run](https://github.com/carla-simulator/carla/pull/9922) <sub>merged Oct 2, 2026</sub>
+- ✅ [docs(python): fix the Python API snippets and remaining keyword names](https://github.com/carla-simulator/carla/pull/9921) <sub>merged Oct 1, 2026</sub>
+- ✅ [fix(python): import sys in the manual_control examples](https://github.com/carla-simulator/carla/pull/9920) <sub>merged Oct 1, 2026</sub>
+- ✅ [docs(python): use the bindings' keyword argument names](https://github.com/carla-simulator/carla/pull/9918) <sub>merged Sep 30, 2026</sub>
+- ✅ [docs: state that actor velocities use world coordinates](https://github.com/carla-simulator/carla/pull/9916) <sub>merged Sep 30, 2026</sub>
+- ✅ [docs: update walker skeleton tutorial to the current bone API](https://github.com/carla-simulator/carla/pull/9915) <sub>merged Sep 30, 2026</sub>
+- ✅ [fix(agents): handle a missing incoming waypoint in BehaviorAgent](https://github.com/carla-simulator/carla/pull/9912) <sub>merged Sep 29, 2026</sub>
+- ✅ [fix(python): honour --show-* flags in no_rendering_mode map cache](https://github.com/carla-simulator/carla/pull/9910) <sub>merged Sep 29, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard and rover fixes.
@@ -19,19 +33,6 @@ Drone flight stack: fixed-wing Offboard and rover fixes.
 - ⏳ [fix(control_allocation): scale thrust by the actuators producing it](https://github.com/PX4/PX4-Autopilot/pull/28953) <sub>in review, opened Oct 1, 2026</sub>
 - ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
 - ⏳ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>in review, opened Sep 28, 2026</sub>
-
-#### [CARLA](https://github.com/carla-simulator/carla)
-Autonomous-driving simulator: Python API agents, examples and docs.
-
-- ⏳ [fix(python): report spawn failures in the collision determinism smoke test](https://github.com/carla-simulator/carla/pull/9923) <sub>in review, opened Oct 1, 2026</sub>
-- ⏳ [docs: fix code examples in the guides that fail when run](https://github.com/carla-simulator/carla/pull/9922) <sub>in review, opened Oct 1, 2026</sub>
-- ✅ [docs(python): fix the Python API snippets and remaining keyword names](https://github.com/carla-simulator/carla/pull/9921) <sub>merged Oct 1, 2026</sub>
-- ✅ [fix(python): import sys in the manual_control examples](https://github.com/carla-simulator/carla/pull/9920) <sub>merged Oct 1, 2026</sub>
-- ✅ [docs(python): use the bindings' keyword argument names](https://github.com/carla-simulator/carla/pull/9918) <sub>merged Sep 30, 2026</sub>
-- ✅ [docs: state that actor velocities use world coordinates](https://github.com/carla-simulator/carla/pull/9916) <sub>merged Sep 30, 2026</sub>
-- ✅ [docs: update walker skeleton tutorial to the current bone API](https://github.com/carla-simulator/carla/pull/9915) <sub>merged Sep 30, 2026</sub>
-- ✅ [fix(agents): handle a missing incoming waypoint in BehaviorAgent](https://github.com/carla-simulator/carla/pull/9912) <sub>merged Sep 29, 2026</sub>
-- ✅ [fix(python): honour --show-* flags in no_rendering_mode map cache](https://github.com/carla-simulator/carla/pull/9910) <sub>merged Sep 29, 2026</sub>
 
 #### [pymavlink](https://github.com/ArduPilot/pymavlink)
 python MAVLink interface and utilities
