@@ -10,7 +10,13 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**23** pull requests to **8** projects · ✅ 13 merged · ⏳ 10 in review
+**24** pull requests to **8** projects · ✅ 13 merged · ⏳ 11 in review
+
+#### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
+MAVLink proxy and command-line ground station: console completion fixes.
+
+- ⏳ [OpenDroneID: use the UTC epoch for the 2019 timestamp](https://github.com/ArduPilot/MAVProxy/pull/1767) <sub>in review, opened Oct 2, 2026</sub>
+- ✅ [rline: don't let a short completion rule break the others](https://github.com/ArduPilot/MAVProxy/pull/1765) <sub>merged Oct 1, 2026</sub>
 
 #### [CARLA](https://github.com/carla-simulator/carla)
 Autonomous-driving simulator: Python API agents, examples and docs.
@@ -43,11 +49,6 @@ python MAVLink interface and utilities
 IoT Platform Framework
 
 - ✅ [MG-3621 - Use the created column for time bounds of JSON formats](https://github.com/absmach/magistrala/pull/3623) <sub>merged Oct 1, 2026</sub>
-
-#### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
-MAVLink proxy and command-line ground station: console completion fixes.
-
-- ✅ [rline: don't let a short completion rule break the others](https://github.com/ArduPilot/MAVProxy/pull/1765) <sub>merged Oct 1, 2026</sub>
 
 #### [ArduPilot](https://github.com/ArduPilot/ardupilot)
 Drone flight stack: SITL autotests and HAL test fixes.
