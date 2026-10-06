@@ -10,7 +10,7 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**24** pull requests to **8** projects · ✅ 15 merged · ⏳ 9 in review
+**24** pull requests to **8** projects · ✅ 16 merged · ⏳ 8 in review
 
 #### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
 MAVLink proxy and command-line ground station: console completion fixes.
@@ -54,7 +54,7 @@ IoT Platform Framework
 Drone flight stack: SITL autotests and HAL test fixes.
 
 - ⏳ [autotest: fix and re-enable Plane.TerrainRally](https://github.com/ArduPilot/ardupilot/pull/34517) <sub>in review, opened Sep 27, 2026</sub>
-- ⏳ [AP_HAL: fix DSP_test reading past the end of gyro_frames](https://github.com/ArduPilot/ardupilot/pull/34502) <sub>in review, opened Sep 25, 2026</sub>
+- ✅ [AP_HAL: fix DSP_test reading past the end of gyro_frames](https://github.com/ArduPilot/ardupilot/pull/34502) <sub>merged Oct 6, 2026</sub>
 
 #### [QGroundControl](https://github.com/mavlink/qgroundcontrol)
 Ground control station: MAVLink COMMAND_INT support and mission command handling.
