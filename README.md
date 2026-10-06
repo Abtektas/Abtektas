@@ -10,7 +10,20 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**24** pull requests to **8** projects · ✅ 16 merged · ⏳ 8 in review
+**26** pull requests to **8** projects · ✅ 16 merged · ⏳ 10 in review
+
+#### [magistrala](https://github.com/absmach/magistrala)
+IoT Platform Framework
+
+- ⏳ [MG-3148 - Document the users commands in the CLI README](https://github.com/absmach/magistrala/pull/3627) <sub>in review, opened Oct 6, 2026</sub>
+- ✅ [MG-3621 - Use the created column for time bounds of JSON formats](https://github.com/absmach/magistrala/pull/3623) <sub>merged Oct 1, 2026</sub>
+
+#### [ArduPilot](https://github.com/ArduPilot/ardupilot)
+Drone flight stack: SITL autotests and HAL test fixes.
+
+- ⏳ [Plane: set tailsitter enable before creating the VTOL AHRS view](https://github.com/ArduPilot/ardupilot/pull/34643) <sub>in review, opened Oct 6, 2026</sub>
+- ⏳ [autotest: fix and re-enable Plane.TerrainRally](https://github.com/ArduPilot/ardupilot/pull/34517) <sub>in review, opened Sep 27, 2026</sub>
+- ✅ [AP_HAL: fix DSP_test reading past the end of gyro_frames](https://github.com/ArduPilot/ardupilot/pull/34502) <sub>merged Oct 6, 2026</sub>
 
 #### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
 MAVLink proxy and command-line ground station: console completion fixes.
@@ -44,17 +57,6 @@ Drone flight stack: fixed-wing Offboard and rover fixes.
 python MAVLink interface and utilities
 
 - ⏳ [generator: Swift: use the XML bitmask attribute for option sets](https://github.com/ArduPilot/pymavlink/pull/1299) <sub>in review, opened Oct 1, 2026</sub>
-
-#### [magistrala](https://github.com/absmach/magistrala)
-IoT Platform Framework
-
-- ✅ [MG-3621 - Use the created column for time bounds of JSON formats](https://github.com/absmach/magistrala/pull/3623) <sub>merged Oct 1, 2026</sub>
-
-#### [ArduPilot](https://github.com/ArduPilot/ardupilot)
-Drone flight stack: SITL autotests and HAL test fixes.
-
-- ⏳ [autotest: fix and re-enable Plane.TerrainRally](https://github.com/ArduPilot/ardupilot/pull/34517) <sub>in review, opened Sep 27, 2026</sub>
-- ✅ [AP_HAL: fix DSP_test reading past the end of gyro_frames](https://github.com/ArduPilot/ardupilot/pull/34502) <sub>merged Oct 6, 2026</sub>
 
 #### [QGroundControl](https://github.com/mavlink/qgroundcontrol)
 Ground control station: MAVLink COMMAND_INT support and mission command handling.
