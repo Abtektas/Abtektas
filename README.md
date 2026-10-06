@@ -10,7 +10,7 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**24** pull requests to **8** projects · ✅ 14 merged · ⏳ 10 in review
+**24** pull requests to **8** projects · ✅ 15 merged · ⏳ 9 in review
 
 #### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
 MAVLink proxy and command-line ground station: console completion fixes.
@@ -38,7 +38,7 @@ Drone flight stack: fixed-wing Offboard and rover fixes.
 - ⏳ [fix(ekf2): stop the test replay at the end of the sensor data](https://github.com/PX4/PX4-Autopilot/pull/28958) <sub>in review, opened Oct 1, 2026</sub>
 - ⏳ [fix(control_allocation): scale thrust by the actuators producing it](https://github.com/PX4/PX4-Autopilot/pull/28953) <sub>in review, opened Oct 1, 2026</sub>
 - ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
-- ⏳ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>in review, opened Sep 28, 2026</sub>
+- ✅ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>merged Oct 5, 2026</sub>
 
 #### [pymavlink](https://github.com/ArduPilot/pymavlink)
 python MAVLink interface and utilities
@@ -69,4 +69,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Oct 5, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Oct 6, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
