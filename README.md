@@ -10,7 +10,16 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**27** pull requests to **8** projects · ✅ 18 merged · 👍 1 approved · ⏳ 8 in review
+**28** pull requests to **8** projects · ✅ 18 merged · 👍 1 approved · ⏳ 9 in review
+
+#### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
+Drone flight stack: fixed-wing Offboard and rover fixes.
+
+- ⏳ [fix(fw_mode_manager): clear the course setpoint in Offboard \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29025) <sub>in review, opened Oct 7, 2026</sub>
+- ⏳ [fix(ekf2): stop the test replay at the end of the sensor data](https://github.com/PX4/PX4-Autopilot/pull/28958) <sub>in review, opened Oct 1, 2026</sub>
+- ⏳ [fix(control_allocation): scale thrust by the actuators producing it](https://github.com/PX4/PX4-Autopilot/pull/28953) <sub>in review, opened Oct 1, 2026</sub>
+- ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
+- ✅ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>merged Oct 5, 2026</sub>
 
 #### [Magistrala](https://github.com/absmach/magistrala)
 IoT platform: message reader time bounds, CLI docs and certificate Makefile fixes.
@@ -45,14 +54,6 @@ Autonomous-driving simulator: Python API agents, examples and docs.
 - ✅ [docs: update walker skeleton tutorial to the current bone API](https://github.com/carla-simulator/carla/pull/9915) <sub>merged Sep 30, 2026</sub>
 - ✅ [fix(agents): handle a missing incoming waypoint in BehaviorAgent](https://github.com/carla-simulator/carla/pull/9912) <sub>merged Sep 29, 2026</sub>
 - ✅ [fix(python): honour --show-* flags in no_rendering_mode map cache](https://github.com/carla-simulator/carla/pull/9910) <sub>merged Sep 29, 2026</sub>
-
-#### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
-Drone flight stack: fixed-wing Offboard and rover fixes.
-
-- ⏳ [fix(ekf2): stop the test replay at the end of the sensor data](https://github.com/PX4/PX4-Autopilot/pull/28958) <sub>in review, opened Oct 1, 2026</sub>
-- ⏳ [fix(control_allocation): scale thrust by the actuators producing it](https://github.com/PX4/PX4-Autopilot/pull/28953) <sub>in review, opened Oct 1, 2026</sub>
-- ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
-- ✅ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>merged Oct 5, 2026</sub>
 
 #### [pymavlink](https://github.com/ArduPilot/pymavlink)
 MAVLink Python library and code generators: Swift generator fix.
