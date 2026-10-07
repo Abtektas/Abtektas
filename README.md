@@ -10,7 +10,7 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**26** pull requests to **8** projects · ✅ 16 merged · ⏳ 10 in review
+**26** pull requests to **8** projects · ✅ 16 merged · 👍 1 approved · ⏳ 9 in review
 
 #### [magistrala](https://github.com/absmach/magistrala)
 IoT Platform Framework
@@ -22,7 +22,7 @@ IoT Platform Framework
 Drone flight stack: SITL autotests and HAL test fixes.
 
 - ⏳ [Plane: set tailsitter enable before creating the VTOL AHRS view](https://github.com/ArduPilot/ardupilot/pull/34643) <sub>in review, opened Oct 6, 2026</sub>
-- ⏳ [autotest: fix and re-enable Plane.TerrainRally](https://github.com/ArduPilot/ardupilot/pull/34517) <sub>in review, opened Sep 27, 2026</sub>
+- 👍 [autotest: fix and re-enable Plane.TerrainRally](https://github.com/ArduPilot/ardupilot/pull/34517) <sub>approved, opened Sep 27, 2026</sub>
 - ✅ [AP_HAL: fix DSP_test reading past the end of gyro_frames](https://github.com/ArduPilot/ardupilot/pull/34502) <sub>merged Oct 6, 2026</sub>
 
 #### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
@@ -71,4 +71,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Oct 6, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Oct 7, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
