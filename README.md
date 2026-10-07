@@ -10,13 +10,13 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**27** pull requests to **8** projects · ✅ 16 merged · 👍 1 approved · ⏳ 10 in review
+**27** pull requests to **8** projects · ✅ 18 merged · 👍 1 approved · ⏳ 8 in review
 
-#### [magistrala](https://github.com/absmach/magistrala)
-IoT Platform Framework
+#### [Magistrala](https://github.com/absmach/magistrala)
+IoT platform: message reader time bounds, CLI docs and certificate Makefile fixes.
 
-- ⏳ [MG-3628 - Write the certificate configs without the GNU Make 4 file function](https://github.com/absmach/magistrala/pull/3629) <sub>in review, opened Oct 7, 2026</sub>
-- ⏳ [MG-3148 - Document the users commands in the CLI README](https://github.com/absmach/magistrala/pull/3627) <sub>in review, opened Oct 6, 2026</sub>
+- ✅ [MG-3628 - Write the certificate configs without the GNU Make 4 file function](https://github.com/absmach/magistrala/pull/3629) <sub>merged Oct 7, 2026</sub>
+- ✅ [MG-3148 - Document the users commands in the CLI README](https://github.com/absmach/magistrala/pull/3627) <sub>merged Oct 7, 2026</sub>
 - ✅ [MG-3621 - Use the created column for time bounds of JSON formats](https://github.com/absmach/magistrala/pull/3623) <sub>merged Oct 1, 2026</sub>
 
 #### [ArduPilot](https://github.com/ArduPilot/ardupilot)
@@ -55,7 +55,7 @@ Drone flight stack: fixed-wing Offboard and rover fixes.
 - ✅ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>merged Oct 5, 2026</sub>
 
 #### [pymavlink](https://github.com/ArduPilot/pymavlink)
-python MAVLink interface and utilities
+MAVLink Python library and code generators: Swift generator fix.
 
 - ⏳ [generator: Swift: use the XML bitmask attribute for option sets](https://github.com/ArduPilot/pymavlink/pull/1299) <sub>in review, opened Oct 1, 2026</sub>
 
