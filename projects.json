@@ -22,5 +22,13 @@
   "ArduPilot/MAVProxy": {
     "name": "MAVProxy",
     "summary": "MAVLink proxy and command-line ground station: console completion fixes."
+  },
+  "absmach/magistrala": {
+    "name": "Magistrala",
+    "summary": "IoT platform: message reader time bounds, CLI docs and certificate Makefile fixes."
+  },
+  "ArduPilot/pymavlink": {
+    "name": "pymavlink",
+    "summary": "MAVLink Python library and code generators: Swift generator fix."
   }
 }
