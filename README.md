@@ -10,11 +10,12 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**26** pull requests to **8** projects · ✅ 16 merged · 👍 1 approved · ⏳ 9 in review
+**27** pull requests to **8** projects · ✅ 16 merged · 👍 1 approved · ⏳ 10 in review
 
 #### [magistrala](https://github.com/absmach/magistrala)
 IoT Platform Framework
 
+- ⏳ [MG-3628 - Write the certificate configs without the GNU Make 4 file function](https://github.com/absmach/magistrala/pull/3629) <sub>in review, opened Oct 7, 2026</sub>
 - ⏳ [MG-3148 - Document the users commands in the CLI README](https://github.com/absmach/magistrala/pull/3627) <sub>in review, opened Oct 6, 2026</sub>
 - ✅ [MG-3621 - Use the created column for time bounds of JSON formats](https://github.com/absmach/magistrala/pull/3623) <sub>merged Oct 1, 2026</sub>
 
