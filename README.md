@@ -10,7 +10,7 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**28** pull requests to **8** projects · ✅ 18 merged · 👍 1 approved · ⏳ 9 in review
+**28** pull requests to **8** projects · ✅ 19 merged · 👍 1 approved · ⏳ 8 in review
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard and rover fixes.
@@ -38,7 +38,7 @@ Drone flight stack: SITL autotests and HAL test fixes.
 #### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
 MAVLink proxy and command-line ground station: console completion fixes.
 
-- ⏳ [OpenDroneID: use the UTC epoch for the 2019 timestamp](https://github.com/ArduPilot/MAVProxy/pull/1767) <sub>in review, opened Oct 2, 2026</sub>
+- ✅ [OpenDroneID: use the UTC epoch for the 2019 timestamp](https://github.com/ArduPilot/MAVProxy/pull/1767) <sub>merged Oct 8, 2026</sub>
 - ✅ [rline: don't let a short completion rule break the others](https://github.com/ArduPilot/MAVProxy/pull/1765) <sub>merged Oct 1, 2026</sub>
 
 #### [CARLA](https://github.com/carla-simulator/carla)
@@ -73,4 +73,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Oct 7, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Oct 8, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
