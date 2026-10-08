@@ -10,12 +10,12 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**28** pull requests to **8** projects · ✅ 19 merged · 👍 1 approved · ⏳ 8 in review
+**28** pull requests to **8** projects · ✅ 20 merged · 👍 1 approved · ⏳ 7 in review
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard and rover fixes.
 
-- ⏳ [fix(fw_mode_manager): clear the course setpoint in Offboard \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29025) <sub>in review, opened Oct 7, 2026</sub>
+- ✅ [\[BACKPORT 1.18\] fix(fw_mode_manager): clear the course setpoint in Offboard \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29025) <sub>merged Oct 8, 2026</sub>
 - ⏳ [fix(ekf2): stop the test replay at the end of the sensor data](https://github.com/PX4/PX4-Autopilot/pull/28958) <sub>in review, opened Oct 1, 2026</sub>
 - ⏳ [fix(control_allocation): scale thrust by the actuators producing it](https://github.com/PX4/PX4-Autopilot/pull/28953) <sub>in review, opened Oct 1, 2026</sub>
 - ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
