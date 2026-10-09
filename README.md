@@ -7,6 +7,11 @@ I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, 
 
 <a href="https://linkedin.com/in/abtektas"><img alt="Connect on LinkedIn" src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
+### Projects
+
+#### [px4-ca-lint](https://github.com/Abtektas/px4-ca-lint)
+Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own allocation code on a parameter file and reports the resulting matrices and likely configuration mistakes.
+
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
