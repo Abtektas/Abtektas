@@ -15,7 +15,7 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**28** pull requests to **8** projects · ✅ 20 merged · 👍 1 approved · ⏳ 7 in review
+**28** pull requests to **8** projects · ✅ 21 merged · ⏳ 7 in review
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard and rover fixes.
@@ -37,7 +37,7 @@ IoT platform: message reader time bounds, CLI docs and certificate Makefile fixe
 Drone flight stack: SITL autotests and HAL test fixes.
 
 - ⏳ [Plane: set tailsitter enable before creating the VTOL AHRS view](https://github.com/ArduPilot/ardupilot/pull/34643) <sub>in review, opened Oct 6, 2026</sub>
-- 👍 [autotest: fix and re-enable Plane.TerrainRally](https://github.com/ArduPilot/ardupilot/pull/34517) <sub>approved, opened Sep 27, 2026</sub>
+- ✅ [autotest: fix and re-enable Plane.TerrainRally](https://github.com/ArduPilot/ardupilot/pull/34517) <sub>merged Oct 12, 2026</sub>
 - ✅ [AP_HAL: fix DSP_test reading past the end of gyro_frames](https://github.com/ArduPilot/ardupilot/pull/34502) <sub>merged Oct 6, 2026</sub>
 
 #### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
@@ -78,4 +78,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Oct 8, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Oct 12, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
