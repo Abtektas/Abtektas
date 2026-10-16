@@ -15,7 +15,15 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**28** pull requests to **8** projects · ✅ 21 merged · ⏳ 7 in review
+**29** pull requests to **8** projects · ✅ 22 merged · ⏳ 7 in review
+
+#### [QGroundControl](https://github.com/mavlink/qgroundcontrol)
+Ground control station: MAVLink COMMAND_INT support and mission command handling.
+
+- ⏳ [test(Vehicle): port SetHomeTest to the current GPS position API](https://github.com/mavlink/qgroundcontrol/pull/15311) <sub>in review, opened Oct 15, 2026</sub>
+- ⏳ [fix(PX4): send DO_REPOSITION as COMMAND_INT when supported](https://github.com/mavlink/qgroundcontrol/pull/15187) <sub>in review, opened Sep 25, 2026</sub>
+- ✅ [fix(Vehicle): send DO_SET_HOME as COMMAND_INT when supported](https://github.com/mavlink/qgroundcontrol/pull/15186) <sub>merged Oct 15, 2026</sub>
+- ✅ [fix(MissionManager): restore mission commands lost to broken enum translations](https://github.com/mavlink/qgroundcontrol/pull/15185) <sub>merged Sep 29, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard and rover fixes.
@@ -65,17 +73,10 @@ MAVLink Python library and code generators: Swift generator fix.
 
 - ⏳ [generator: Swift: use the XML bitmask attribute for option sets](https://github.com/ArduPilot/pymavlink/pull/1299) <sub>in review, opened Oct 1, 2026</sub>
 
-#### [QGroundControl](https://github.com/mavlink/qgroundcontrol)
-Ground control station: MAVLink COMMAND_INT support and mission command handling.
-
-- ⏳ [fix(PX4): send DO_REPOSITION as COMMAND_INT when supported](https://github.com/mavlink/qgroundcontrol/pull/15187) <sub>in review, opened Sep 25, 2026</sub>
-- ⏳ [fix(Vehicle): send DO_SET_HOME as COMMAND_INT when supported](https://github.com/mavlink/qgroundcontrol/pull/15186) <sub>in review, opened Sep 25, 2026</sub>
-- ✅ [fix(MissionManager): restore mission commands lost to broken enum translations](https://github.com/mavlink/qgroundcontrol/pull/15185) <sub>merged Sep 29, 2026</sub>
-
 #### [Ollama](https://github.com/ollama/ollama)
 Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Silicon.
 
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Oct 12, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Oct 16, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
