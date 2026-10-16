@@ -15,11 +15,12 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**29** pull requests to **8** projects · ✅ 23 merged · ⏳ 5 in review · ✖️ 1 closed
+**30** pull requests to **8** projects · ✅ 23 merged · ⏳ 6 in review · ✖️ 1 closed
 
 #### [QGroundControl](https://github.com/mavlink/qgroundcontrol)
 Ground control station: MAVLink COMMAND_INT support and mission command handling.
 
+- ⏳ [fix(Vehicle): keep the AVAILABLE_MODES seq after downloading the modes](https://github.com/mavlink/qgroundcontrol/pull/15320) <sub>in review, opened Oct 16, 2026</sub>
 - ✖️ [test(Vehicle): port SetHomeTest to the current GPS position API](https://github.com/mavlink/qgroundcontrol/pull/15311) <sub>closed Oct 16, 2026</sub>
 - ✅ [fix(PX4): send DO_REPOSITION as COMMAND_INT when supported](https://github.com/mavlink/qgroundcontrol/pull/15187) <sub>merged Oct 16, 2026</sub>
 - ✅ [fix(Vehicle): send DO_SET_HOME as COMMAND_INT when supported](https://github.com/mavlink/qgroundcontrol/pull/15186) <sub>merged Oct 15, 2026</sub>
