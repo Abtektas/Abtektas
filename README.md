@@ -15,7 +15,19 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**30** pull requests to **8** projects · ✅ 23 merged · ⏳ 6 in review · ✖️ 1 closed
+**33** pull requests to **8** projects · ✅ 25 merged · ⏳ 7 in review · ✖️ 1 closed
+
+#### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
+Drone flight stack: fixed-wing Offboard and rover fixes.
+
+- ⏳ [fix(fw_mode_manager): ignore setpoints from before Offboard](https://github.com/PX4/PX4-Autopilot/pull/29279) <sub>in review, opened Oct 16, 2026</sub>
+- ✅ [fix(mc_raptor): build with clang](https://github.com/PX4/PX4-Autopilot/pull/29276) <sub>merged Oct 16, 2026</sub>
+- ✅ [fix(airframes): set CA_ROTOR_COUNT in three airframe scripts](https://github.com/PX4/PX4-Autopilot/pull/29274) <sub>merged Oct 16, 2026</sub>
+- ✅ [\[BACKPORT 1.18\] fix(fw_mode_manager): clear the course setpoint in Offboard \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29025) <sub>merged Oct 8, 2026</sub>
+- ⏳ [fix(ekf2): stop the test replay at the end of the sensor data](https://github.com/PX4/PX4-Autopilot/pull/28958) <sub>in review, opened Oct 1, 2026</sub>
+- ⏳ [fix(control_allocation): scale thrust by the actuators producing it](https://github.com/PX4/PX4-Autopilot/pull/28953) <sub>in review, opened Oct 1, 2026</sub>
+- ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
+- ✅ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>merged Oct 5, 2026</sub>
 
 #### [QGroundControl](https://github.com/mavlink/qgroundcontrol)
 Ground control station: MAVLink COMMAND_INT support and mission command handling.
@@ -25,15 +37,6 @@ Ground control station: MAVLink COMMAND_INT support and mission command handling
 - ✅ [fix(PX4): send DO_REPOSITION as COMMAND_INT when supported](https://github.com/mavlink/qgroundcontrol/pull/15187) <sub>merged Oct 16, 2026</sub>
 - ✅ [fix(Vehicle): send DO_SET_HOME as COMMAND_INT when supported](https://github.com/mavlink/qgroundcontrol/pull/15186) <sub>merged Oct 15, 2026</sub>
 - ✅ [fix(MissionManager): restore mission commands lost to broken enum translations](https://github.com/mavlink/qgroundcontrol/pull/15185) <sub>merged Sep 29, 2026</sub>
-
-#### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
-Drone flight stack: fixed-wing Offboard and rover fixes.
-
-- ✅ [\[BACKPORT 1.18\] fix(fw_mode_manager): clear the course setpoint in Offboard \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29025) <sub>merged Oct 8, 2026</sub>
-- ⏳ [fix(ekf2): stop the test replay at the end of the sensor data](https://github.com/PX4/PX4-Autopilot/pull/28958) <sub>in review, opened Oct 1, 2026</sub>
-- ⏳ [fix(control_allocation): scale thrust by the actuators producing it](https://github.com/PX4/PX4-Autopilot/pull/28953) <sub>in review, opened Oct 1, 2026</sub>
-- ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
-- ✅ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>merged Oct 5, 2026</sub>
 
 #### [Magistrala](https://github.com/absmach/magistrala)
 IoT platform: message reader time bounds, CLI docs and certificate Makefile fixes.
@@ -80,4 +83,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Oct 16, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Oct 17, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
