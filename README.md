@@ -15,7 +15,12 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**33** pull requests to **8** projects · ✅ 26 merged · ⏳ 6 in review · ✖️ 1 closed
+**34** pull requests to **9** projects · ✅ 26 merged · ⏳ 7 in review · ✖️ 1 closed
+
+#### [gz-sensors](https://github.com/gazebosim/gz-sensors)
+Provides numerous sensor models designed to generate realistic data from simulation environments.
+
+- ⏳ [Load reference_altitude from SDF in AirPressureSensor](https://github.com/gazebosim/gz-sensors/pull/684) <sub>in review, opened Oct 18, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard and rover fixes.
@@ -83,4 +88,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Oct 18, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Oct 19, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
