@@ -15,7 +15,12 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**34** pull requests to **9** projects · ✅ 26 merged · ⏳ 7 in review · ✖️ 1 closed
+**35** pull requests to **10** projects · ✅ 26 merged · ⏳ 8 in review · ✖️ 1 closed
+
+#### [PySR](https://github.com/astroautomata/PySR)
+Symbolic Learning in Python and Julia
+
+- ⏳ [fix: keep DataFrame column names that are str subclasses](https://github.com/astroautomata/PySR/pull/1441) <sub>in review, opened Oct 19, 2026</sub>
 
 #### [gz-sensors](https://github.com/gazebosim/gz-sensors)
 Provides numerous sensor models designed to generate realistic data from simulation environments.
