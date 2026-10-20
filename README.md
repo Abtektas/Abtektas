@@ -18,17 +18,17 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 **35** pull requests to **10** projects · ✅ 26 merged · ⏳ 8 in review · ✖️ 1 closed
 
 #### [PySR](https://github.com/astroautomata/PySR)
-Symbolic Learning in Python and Julia
+Symbolic regression library: pandas DataFrame column-name handling.
 
 - ⏳ [fix: keep DataFrame column names that are str subclasses](https://github.com/astroautomata/PySR/pull/1441) <sub>in review, opened Oct 19, 2026</sub>
 
-#### [gz-sensors](https://github.com/gazebosim/gz-sensors)
-Provides numerous sensor models designed to generate realistic data from simulation environments.
+#### [Gazebo Sensors](https://github.com/gazebosim/gz-sensors)
+Robot simulator sensor models: air pressure sensor SDF configuration.
 
 - ⏳ [Load reference_altitude from SDF in AirPressureSensor](https://github.com/gazebosim/gz-sensors/pull/684) <sub>in review, opened Oct 18, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
-Drone flight stack: fixed-wing Offboard and rover fixes.
+Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test and build fixes.
 
 - ⏳ [fix(fw_mode_manager): ignore setpoints from before Offboard](https://github.com/PX4/PX4-Autopilot/pull/29279) <sub>in review, opened Oct 16, 2026</sub>
 - ✅ [fix(mc_raptor): build with clang](https://github.com/PX4/PX4-Autopilot/pull/29276) <sub>merged Oct 16, 2026</sub>
@@ -93,4 +93,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Oct 19, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Oct 20, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>

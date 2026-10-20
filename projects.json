@@ -1,7 +1,7 @@
 {
   "PX4/PX4-Autopilot": {
     "name": "PX4 Autopilot",
-    "summary": "Drone flight stack: fixed-wing Offboard and rover fixes."
+    "summary": "Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test and build fixes."
   },
   "ArduPilot/ardupilot": {
     "name": "ArduPilot",
@@ -30,5 +30,13 @@
   "ArduPilot/pymavlink": {
     "name": "pymavlink",
     "summary": "MAVLink Python library and code generators: Swift generator fix."
+  },
+  "astroautomata/PySR": {
+    "name": "PySR",
+    "summary": "Symbolic regression library: pandas DataFrame column-name handling."
+  },
+  "gazebosim/gz-sensors": {
+    "name": "Gazebo Sensors",
+    "summary": "Robot simulator sensor models: air pressure sensor SDF configuration."
   }
 }
