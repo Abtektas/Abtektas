@@ -15,7 +15,21 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**35** pull requests to **10** projects · ✅ 26 merged · ⏳ 8 in review · ✖️ 1 closed
+**37** pull requests to **10** projects · ✅ 26 merged · ⏳ 10 in review · ✖️ 1 closed
+
+#### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
+Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test and build fixes.
+
+- ⏳ [fix(heater): keep v1.17 heater settings on upgrade](https://github.com/PX4/PX4-Autopilot/pull/29354) <sub>in review, opened Oct 20, 2026</sub>
+- ⏳ [fix(ekf2): keep v1.17 auxiliary global position settings on upgrade](https://github.com/PX4/PX4-Autopilot/pull/29351) <sub>in review, opened Oct 20, 2026</sub>
+- ⏳ [fix(fw_mode_manager): ignore setpoints from before Offboard](https://github.com/PX4/PX4-Autopilot/pull/29279) <sub>in review, opened Oct 16, 2026</sub>
+- ✅ [fix(mc_raptor): build with clang](https://github.com/PX4/PX4-Autopilot/pull/29276) <sub>merged Oct 16, 2026</sub>
+- ✅ [fix(airframes): set CA_ROTOR_COUNT in three airframe scripts](https://github.com/PX4/PX4-Autopilot/pull/29274) <sub>merged Oct 16, 2026</sub>
+- ✅ [\[BACKPORT 1.18\] fix(fw_mode_manager): clear the course setpoint in Offboard \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29025) <sub>merged Oct 8, 2026</sub>
+- ⏳ [fix(ekf2): stop the test replay at the end of the sensor data](https://github.com/PX4/PX4-Autopilot/pull/28958) <sub>in review, opened Oct 1, 2026</sub>
+- ⏳ [fix(control_allocation): scale thrust by the actuators producing it](https://github.com/PX4/PX4-Autopilot/pull/28953) <sub>in review, opened Oct 1, 2026</sub>
+- ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
+- ✅ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>merged Oct 5, 2026</sub>
 
 #### [PySR](https://github.com/astroautomata/PySR)
 Symbolic regression library: pandas DataFrame column-name handling.
@@ -26,18 +40,6 @@ Symbolic regression library: pandas DataFrame column-name handling.
 Robot simulator sensor models: air pressure sensor SDF configuration.
 
 - ⏳ [Load reference_altitude from SDF in AirPressureSensor](https://github.com/gazebosim/gz-sensors/pull/684) <sub>in review, opened Oct 18, 2026</sub>
-
-#### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
-Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test and build fixes.
-
-- ⏳ [fix(fw_mode_manager): ignore setpoints from before Offboard](https://github.com/PX4/PX4-Autopilot/pull/29279) <sub>in review, opened Oct 16, 2026</sub>
-- ✅ [fix(mc_raptor): build with clang](https://github.com/PX4/PX4-Autopilot/pull/29276) <sub>merged Oct 16, 2026</sub>
-- ✅ [fix(airframes): set CA_ROTOR_COUNT in three airframe scripts](https://github.com/PX4/PX4-Autopilot/pull/29274) <sub>merged Oct 16, 2026</sub>
-- ✅ [\[BACKPORT 1.18\] fix(fw_mode_manager): clear the course setpoint in Offboard \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29025) <sub>merged Oct 8, 2026</sub>
-- ⏳ [fix(ekf2): stop the test replay at the end of the sensor data](https://github.com/PX4/PX4-Autopilot/pull/28958) <sub>in review, opened Oct 1, 2026</sub>
-- ⏳ [fix(control_allocation): scale thrust by the actuators producing it](https://github.com/PX4/PX4-Autopilot/pull/28953) <sub>in review, opened Oct 1, 2026</sub>
-- ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
-- ✅ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>merged Oct 5, 2026</sub>
 
 #### [QGroundControl](https://github.com/mavlink/qgroundcontrol)
 Ground control station: MAVLink COMMAND_INT support and mission command handling.
