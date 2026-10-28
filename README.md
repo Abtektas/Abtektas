@@ -15,11 +15,12 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**41** pull requests to **10** projects · ✅ 29 merged · ⏳ 9 in review · ✖️ 3 closed
+**42** pull requests to **10** projects · ✅ 29 merged · ⏳ 10 in review · ✖️ 3 closed
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test and build fixes.
 
+- ⏳ [fix(fw_mode_manager): ignore setpoints from before Offboard \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29465) <sub>in review, opened Oct 28, 2026</sub>
 - ⏳ [fix(metadata): document the parameters that moved to yaml files](https://github.com/PX4/PX4-Autopilot/pull/29389) <sub>in review, opened Oct 23, 2026</sub>
 - ⏳ [feat(tools): add a script to convert v1.17 parameter files for v1.18](https://github.com/PX4/PX4-Autopilot/pull/29363) <sub>in review, opened Oct 21, 2026</sub>
 - ✅ [fix(heater): keep v1.17 heater settings on upgrade \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29360) <sub>merged Oct 21, 2026</sub>
@@ -99,4 +100,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Oct 27, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Oct 28, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
