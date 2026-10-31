@@ -15,11 +15,12 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**42** pull requests to **10** projects · ✅ 32 merged · ⏳ 7 in review · ✖️ 3 closed
+**43** pull requests to **10** projects · ✅ 32 merged · ⏳ 8 in review · ✖️ 3 closed
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test and build fixes.
 
+- ⏳ [fix(ekf2): keep v1.17 auxiliary global position settings on upgrade \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29541) <sub>in review, opened Oct 31, 2026</sub>
 - ✅ [fix(fw_mode_manager): ignore setpoints from before Offboard \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29465) <sub>merged Oct 30, 2026</sub>
 - ✅ [fix(metadata): document the parameters that moved to yaml files](https://github.com/PX4/PX4-Autopilot/pull/29389) <sub>merged Oct 30, 2026</sub>
 - ⏳ [feat(tools): add a script to convert v1.17 parameter files for v1.18](https://github.com/PX4/PX4-Autopilot/pull/29363) <sub>in review, opened Oct 21, 2026</sub>
