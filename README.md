@@ -15,7 +15,7 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**42** pull requests to **10** projects · ✅ 31 merged · ⏳ 8 in review · ✖️ 3 closed
+**42** pull requests to **10** projects · ✅ 32 merged · ⏳ 7 in review · ✖️ 3 closed
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test and build fixes.
@@ -26,7 +26,7 @@ Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test an
 - ✅ [fix(heater): keep v1.17 heater settings on upgrade \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29360) <sub>merged Oct 21, 2026</sub>
 - ⏳ [docs(releases): add v1.17 upgrade notes for parameter files, failsafes and defaults](https://github.com/PX4/PX4-Autopilot/pull/29356) <sub>in review, opened Oct 20, 2026</sub>
 - ✅ [fix(heater): keep v1.17 heater settings on upgrade](https://github.com/PX4/PX4-Autopilot/pull/29354) <sub>merged Oct 20, 2026</sub>
-- ⏳ [fix(ekf2): keep v1.17 auxiliary global position settings on upgrade](https://github.com/PX4/PX4-Autopilot/pull/29351) <sub>in review, opened Oct 20, 2026</sub>
+- ✅ [fix(ekf2): keep v1.17 auxiliary global position settings on upgrade](https://github.com/PX4/PX4-Autopilot/pull/29351) <sub>merged Oct 30, 2026</sub>
 - ✅ [fix(fw_mode_manager): ignore setpoints from before Offboard](https://github.com/PX4/PX4-Autopilot/pull/29279) <sub>merged Oct 27, 2026</sub>
 - ✅ [fix(mc_raptor): build with clang](https://github.com/PX4/PX4-Autopilot/pull/29276) <sub>merged Oct 16, 2026</sub>
 - ✅ [fix(airframes): set CA_ROTOR_COUNT in three airframe scripts](https://github.com/PX4/PX4-Autopilot/pull/29274) <sub>merged Oct 16, 2026</sub>
@@ -100,4 +100,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Oct 30, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Oct 31, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
