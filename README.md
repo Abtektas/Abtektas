@@ -15,7 +15,7 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**45** pull requests to **10** projects · ✅ 34 merged · 👍 1 approved · ⏳ 8 in review · ✖️ 2 closed
+**45** pull requests to **10** projects · ✅ 35 merged · 👍 1 approved · ⏳ 7 in review · ✖️ 2 closed
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test and build fixes.
@@ -25,7 +25,7 @@ Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test an
 - 👍 [fix(ekf2): keep v1.17 auxiliary global position settings on upgrade \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29541) <sub>approved, opened Oct 31, 2026</sub>
 - ✅ [fix(fw_mode_manager): ignore setpoints from before Offboard \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29465) <sub>merged Oct 30, 2026</sub>
 - ✅ [fix(metadata): document the parameters that moved to yaml files](https://github.com/PX4/PX4-Autopilot/pull/29389) <sub>merged Oct 30, 2026</sub>
-- ⏳ [feat(tools): add a script to convert v1.17 parameter files for v1.18](https://github.com/PX4/PX4-Autopilot/pull/29363) <sub>in review, opened Oct 21, 2026</sub>
+- ✅ [feat(tools): add a script to convert v1.17 parameter files for v1.18](https://github.com/PX4/PX4-Autopilot/pull/29363) <sub>merged Nov 6, 2026</sub>
 - ✅ [fix(heater): keep v1.17 heater settings on upgrade \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29360) <sub>merged Oct 21, 2026</sub>
 - ✅ [docs(releases): add v1.17 upgrade notes for parameter files, failsafes and defaults](https://github.com/PX4/PX4-Autopilot/pull/29356) <sub>merged Nov 2, 2026</sub>
 - ✅ [fix(heater): keep v1.17 heater settings on upgrade](https://github.com/PX4/PX4-Autopilot/pull/29354) <sub>merged Oct 20, 2026</sub>
@@ -103,4 +103,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 5, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 6, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
