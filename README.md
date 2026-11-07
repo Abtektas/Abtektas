@@ -17,13 +17,13 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 <!-- CONTRIBUTIONS:START -->
 **49** pull requests to **12** projects · ✅ 35 merged · 👍 1 approved · ⏳ 10 in review · 📝 1 draft · ✖️ 2 closed
 
-#### [ardupilot_wiki](https://github.com/ArduPilot/ardupilot_wiki)
-Repository for ArduPilot wiki issues and wiki-specific website infrastructure.
+#### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
+ArduPilot documentation: pages updated to the 4.7 position controller parameter names.
 
 - ⏳ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>in review, opened Nov 7, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
-Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata and Offboard fixes.
+Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
 
 - ⏳ [fix(module_config): count reverse range bits from the first channel](https://github.com/PX4/PX4-Autopilot/pull/29679) <sub>in review, opened Nov 7, 2026</sub>
 - ⏳ [chore(boards): drop stale assignments to undefined Kconfig symbols](https://github.com/PX4/PX4-Autopilot/pull/29670) <sub>in review, opened Nov 6, 2026</sub>
@@ -78,7 +78,7 @@ IoT platform: message reader time bounds, CLI docs and certificate Makefile fixe
 - ✅ [MG-3621 - Use the created column for time bounds of JSON formats](https://github.com/absmach/magistrala/pull/3623) <sub>merged Oct 1, 2026</sub>
 
 #### [ArduPilot](https://github.com/ArduPilot/ardupilot)
-Drone flight stack: SITL autotests and HAL test fixes.
+Drone flight stack: QuadPlane tailsitter setup, SITL autotest and HAL test fixes.
 
 - ⏳ [Plane: set tailsitter enable before creating the VTOL AHRS view](https://github.com/ArduPilot/ardupilot/pull/34643) <sub>in review, opened Oct 6, 2026</sub>
 - ✅ [autotest: fix and re-enable Plane.TerrainRally](https://github.com/ArduPilot/ardupilot/pull/34517) <sub>merged Oct 12, 2026</sub>
