@@ -15,16 +15,17 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**47** pull requests to **11** projects · ✅ 35 merged · 👍 1 approved · ⏳ 8 in review · 📝 1 draft · ✖️ 2 closed
+**49** pull requests to **12** projects · ✅ 35 merged · 👍 1 approved · ⏳ 10 in review · 📝 1 draft · ✖️ 2 closed
 
-#### [flight-review-rs](https://github.com/PX4/flight-review-rs)
-Flight log analysis for ULog files: an analyzer for lost EKF position aiding.
+#### [ardupilot_wiki](https://github.com/ArduPilot/ardupilot_wiki)
+Repository for ArduPilot wiki issues and wiki-specific website infrastructure.
 
-- 📝 [Add position_aiding_loss analyzer](https://github.com/PX4/flight-review-rs/pull/58) <sub>draft, opened Nov 6, 2026</sub>
+- ⏳ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>in review, opened Nov 7, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata and Offboard fixes.
 
+- ⏳ [fix(module_config): count reverse range bits from the first channel](https://github.com/PX4/PX4-Autopilot/pull/29679) <sub>in review, opened Nov 7, 2026</sub>
 - ⏳ [chore(boards): drop stale assignments to undefined Kconfig symbols](https://github.com/PX4/PX4-Autopilot/pull/29670) <sub>in review, opened Nov 6, 2026</sub>
 - ✅ [docs(instructions): require an upgrade path for removed parameters](https://github.com/PX4/PX4-Autopilot/pull/29637) <sub>merged Nov 5, 2026</sub>
 - ⏳ [fix(metadata): read all parameter yaml files and check none is left out](https://github.com/PX4/PX4-Autopilot/pull/29636) <sub>in review, opened Nov 5, 2026</sub>
@@ -44,6 +45,11 @@ Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upg
 - ✖️ [fix(control_allocation): scale thrust by the actuators producing it](https://github.com/PX4/PX4-Autopilot/pull/28953) <sub>closed Oct 21, 2026</sub>
 - ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
 - ✅ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>merged Oct 5, 2026</sub>
+
+#### [flight-review-rs](https://github.com/PX4/flight-review-rs)
+Flight log analysis for ULog files: an analyzer for lost EKF position aiding.
+
+- 📝 [Add position_aiding_loss analyzer](https://github.com/PX4/flight-review-rs/pull/58) <sub>draft, opened Nov 6, 2026</sub>
 
 #### [PySR](https://github.com/astroautomata/PySR)
 Symbolic regression library: pandas DataFrame column-name handling.
