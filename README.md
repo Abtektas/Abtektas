@@ -18,12 +18,12 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 **47** pull requests to **11** projects · ✅ 35 merged · 👍 1 approved · ⏳ 8 in review · 📝 1 draft · ✖️ 2 closed
 
 #### [flight-review-rs](https://github.com/PX4/flight-review-rs)
-Flight Review v2 — ULog to Parquet conversion and metadata extraction
+Flight log analysis for ULog files: an analyzer for lost EKF position aiding.
 
 - 📝 [Add position_aiding_loss analyzer](https://github.com/PX4/flight-review-rs/pull/58) <sub>draft, opened Nov 6, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
-Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test and build fixes.
+Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata and Offboard fixes.
 
 - ⏳ [chore(boards): drop stale assignments to undefined Kconfig symbols](https://github.com/PX4/PX4-Autopilot/pull/29670) <sub>in review, opened Nov 6, 2026</sub>
 - ✅ [docs(instructions): require an upgrade path for removed parameters](https://github.com/PX4/PX4-Autopilot/pull/29637) <sub>merged Nov 5, 2026</sub>
@@ -56,7 +56,7 @@ Robot simulator sensor models: air pressure sensor SDF configuration.
 - ⏳ [Load reference_altitude from SDF in AirPressureSensor](https://github.com/gazebosim/gz-sensors/pull/684) <sub>in review, opened Oct 18, 2026</sub>
 
 #### [QGroundControl](https://github.com/mavlink/qgroundcontrol)
-Ground control station: MAVLink COMMAND_INT support and mission command handling.
+Ground control station: MAVLink COMMAND_INT support, flight-mode list and mission command handling.
 
 - ✅ [fix(Vehicle): keep the AVAILABLE_MODES seq after downloading the modes](https://github.com/mavlink/qgroundcontrol/pull/15320) <sub>merged Oct 18, 2026</sub>
 - ✖️ [test(Vehicle): port SetHomeTest to the current GPS position API](https://github.com/mavlink/qgroundcontrol/pull/15311) <sub>closed Oct 16, 2026</sub>

@@ -9,8 +9,10 @@ the block between the <!-- CONTRIBUTIONS:START/END --> markers in README.md.
 Project names and one-line summaries come from projects.json; a project
 missing from that file falls back to its repository name and description.
 
-Only the standard library is used. Needs a token in GITHUB_TOKEN (the
-default Actions token is enough, since only public data is read).
+Only public pull requests are listed, so running this with a token that can
+see private repositories never leaks them. Only the standard library is used.
+Needs a token in GITHUB_TOKEN (the default Actions token is enough, since only
+public data is read).
 """
 
 import datetime
@@ -71,7 +73,7 @@ def graphql(query, variables):
 
 
 def fetch_pull_requests():
-    q = f"is:pr author:{USER} -user:{USER} sort:created-desc"
+    q = f"is:pr is:public author:{USER} -user:{USER} sort:created-desc"
     prs, cursor = [], None
     while True:
         search = graphql(QUERY, {"q": q, "cursor": cursor})["search"]

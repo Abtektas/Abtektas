@@ -1,7 +1,7 @@
 {
   "PX4/PX4-Autopilot": {
     "name": "PX4 Autopilot",
-    "summary": "Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test and build fixes."
+    "summary": "Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata and Offboard fixes."
   },
   "ArduPilot/ardupilot": {
     "name": "ArduPilot",
@@ -9,7 +9,7 @@
   },
   "mavlink/qgroundcontrol": {
     "name": "QGroundControl",
-    "summary": "Ground control station: MAVLink COMMAND_INT support and mission command handling."
+    "summary": "Ground control station: MAVLink COMMAND_INT support, flight-mode list and mission command handling."
   },
   "carla-simulator/carla": {
     "name": "CARLA",
@@ -38,5 +38,9 @@
   "gazebosim/gz-sensors": {
     "name": "Gazebo Sensors",
     "summary": "Robot simulator sensor models: air pressure sensor SDF configuration."
+  },
+  "PX4/flight-review-rs": {
+    "name": "flight-review-rs",
+    "summary": "Flight log analysis for ULog files: an analyzer for lost EKF position aiding."
   }
 }
