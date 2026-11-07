@@ -15,11 +15,17 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**45** pull requests to **10** projects · ✅ 35 merged · 👍 1 approved · ⏳ 7 in review · ✖️ 2 closed
+**47** pull requests to **11** projects · ✅ 35 merged · 👍 1 approved · ⏳ 8 in review · 📝 1 draft · ✖️ 2 closed
+
+#### [flight-review-rs](https://github.com/PX4/flight-review-rs)
+Flight Review v2 — ULog to Parquet conversion and metadata extraction
+
+- 📝 [Add position_aiding_loss analyzer](https://github.com/PX4/flight-review-rs/pull/58) <sub>draft, opened Nov 6, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: fixed-wing Offboard, control allocation, EKF2 replay test and build fixes.
 
+- ⏳ [chore(boards): drop stale assignments to undefined Kconfig symbols](https://github.com/PX4/PX4-Autopilot/pull/29670) <sub>in review, opened Nov 6, 2026</sub>
 - ✅ [docs(instructions): require an upgrade path for removed parameters](https://github.com/PX4/PX4-Autopilot/pull/29637) <sub>merged Nov 5, 2026</sub>
 - ⏳ [fix(metadata): read all parameter yaml files and check none is left out](https://github.com/PX4/PX4-Autopilot/pull/29636) <sub>in review, opened Nov 5, 2026</sub>
 - 👍 [fix(ekf2): keep v1.17 auxiliary global position settings on upgrade \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29541) <sub>approved, opened Oct 31, 2026</sub>
@@ -103,4 +109,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 6, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 7, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
