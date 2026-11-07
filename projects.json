@@ -1,11 +1,15 @@
 {
   "PX4/PX4-Autopilot": {
     "name": "PX4 Autopilot",
-    "summary": "Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata and Offboard fixes."
+    "summary": "Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes."
   },
   "ArduPilot/ardupilot": {
     "name": "ArduPilot",
-    "summary": "Drone flight stack: SITL autotests and HAL test fixes."
+    "summary": "Drone flight stack: QuadPlane tailsitter setup, SITL autotest and HAL test fixes."
+  },
+  "ArduPilot/ardupilot_wiki": {
+    "name": "ArduPilot Wiki",
+    "summary": "ArduPilot documentation: pages updated to the 4.7 position controller parameter names."
   },
   "mavlink/qgroundcontrol": {
     "name": "QGroundControl",
