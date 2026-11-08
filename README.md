@@ -15,11 +15,12 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**49** pull requests to **12** projects · ✅ 36 merged · 👍 1 approved · ⏳ 9 in review · 📝 1 draft · ✖️ 2 closed
+**50** pull requests to **12** projects · ✅ 36 merged · 👍 1 approved · ⏳ 10 in review · 📝 1 draft · ✖️ 2 closed
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to the 4.7 position controller parameter names.
 
+- ⏳ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>in review, opened Nov 8, 2026</sub>
 - ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
