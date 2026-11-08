@@ -15,12 +15,12 @@ Offline checker for PX4 control allocation (`CA_*`) parameters: runs PX4's own a
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**49** pull requests to **12** projects · ✅ 35 merged · 👍 1 approved · ⏳ 10 in review · 📝 1 draft · ✖️ 2 closed
+**49** pull requests to **12** projects · ✅ 36 merged · 👍 1 approved · ⏳ 9 in review · 📝 1 draft · ✖️ 2 closed
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to the 4.7 position controller parameter names.
 
-- ⏳ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>in review, opened Nov 7, 2026</sub>
+- ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
@@ -115,4 +115,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 7, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 8, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
