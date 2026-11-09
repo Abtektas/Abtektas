@@ -117,15 +117,24 @@ def summarize(prs):
     )
 
 
+def shown_date(pr):
+    """The date a PR is listed with: merged, closed or opened."""
+    status = status_of(pr)
+    if status == "merged":
+        return pr["mergedAt"]
+    if status == "closed":
+        return pr["closedAt"]
+    return pr["createdAt"]
+
+
 def render_pr(pr):
     status = status_of(pr)
     icon, label = STATUSES[status]
-    if status == "merged":
-        when = f"merged {fmt_date(pr['mergedAt'])}"
-    elif status == "closed":
-        when = f"closed {fmt_date(pr['closedAt'])}"
+    when = fmt_date(shown_date(pr))
+    if status in ("merged", "closed"):
+        when = f"{label} {when}"
     else:
-        when = f"{label}, opened {fmt_date(pr['createdAt'])}"
+        when = f"{label}, opened {when}"
     return f"- {icon} [{escape(pr['title'])}]({pr['url']}) <sub>{when}</sub>"
 
 
@@ -133,8 +142,10 @@ def render(prs, projects):
     if not prs:
         return "_No upstream pull requests yet._"
 
+    # Newest listed date first, so each project's list reads top-down and
+    # projects end up ordered by their latest activity.
     by_repo = {}
-    for pr in prs:  # already newest first, so projects end up by latest activity
+    for pr in sorted(prs, key=shown_date, reverse=True):
         by_repo.setdefault(pr["repository"]["nameWithOwner"], []).append(pr)
 
     out = [
