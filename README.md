@@ -1,9 +1,9 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Ahmet Burak Tektas: robotics, autonomous-driving simulation and local LLMs" src="assets/header-light.svg" width="100%">
+  <img alt="Ahmet Burak Tektas: drones, robotics and simulation" src="assets/header-light.svg" width="100%">
 </picture>
 
-I'm Burak, based in Oslo. Mostly I contribute upstream to open-source robotics, autonomous-driving simulation and local LLM projects.
+I'm Burak, based in Oslo. I contribute upstream to open-source drone autopilots (PX4, ArduPilot), ground control and simulation tools, and build small tools of my own.
 
 <a href="https://linkedin.com/in/abtektas"><img alt="Connect on LinkedIn" src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
