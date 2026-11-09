@@ -280,7 +280,7 @@ def build(theme):
     draw_text(SUBTITLE, 56, 140, 3, p["sub"])
 
     body = "\n  ".join(cv.parts)
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" shape-rendering="crispEdges" role="img" aria-label="{TITLE.title()}: robotics, autonomous-driving simulation and local LLMs. Pixel-art fjord scene with a drone, a warehouse robot and an autonomous car.">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" shape-rendering="crispEdges" role="img" aria-label="{TITLE.title()}: drones, robotics and simulation. Pixel-art fjord scene with a drone, a warehouse robot and an autonomous car.">
   <defs><clipPath id="card"><rect width="{W}" height="{H}" rx="16"/></clipPath></defs>
   <g clip-path="url(#card)">
   {body}
