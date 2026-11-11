@@ -43,6 +43,10 @@
     "name": "Gazebo Sensors",
     "summary": "Robot simulator sensor models: air pressure sensor SDF configuration."
   },
+  "PX4/PX4-gazebo-models": {
+    "name": "PX4 Gazebo Models",
+    "summary": "Gazebo simulation models for PX4 SITL: unique joint names in the differential rover model."
+  },
   "PX4/flight-review-rs": {
     "name": "flight-review-rs",
     "summary": "Flight log analysis for ULog files: an analyzer for lost EKF position aiding."
