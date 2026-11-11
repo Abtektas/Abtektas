@@ -9,7 +9,7 @@
   },
   "ArduPilot/ardupilot_wiki": {
     "name": "ArduPilot Wiki",
-    "summary": "ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning)."
+    "summary": "ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning) and the 4.5 relay pin names."
   },
   "mavlink/qgroundcontrol": {
     "name": "QGroundControl",
