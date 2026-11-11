@@ -26,7 +26,7 @@ Gazebo simulation models for PX4 SITL: unique joint names in the differential ro
 - ⏳ [fix(rover_differential): give the rear caster joint its own name](https://github.com/PX4/PX4-gazebo-models/pull/168) <sub>in review, opened Nov 11, 2026</sub>
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
-ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning).
+ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning) and the 4.5 relay pin names.
 
 - ⏳ [Common: use the 4.5 RELAYn_PIN and RELAYn_DEFAULT names](https://github.com/ArduPilot/ardupilot_wiki/pull/8264) <sub>in review, opened Nov 10, 2026</sub>
 - ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
