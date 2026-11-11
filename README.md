@@ -18,7 +18,12 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**52** pull requests to **12** projects · ✅ 38 merged · 👍 1 approved · ⏳ 10 in review · 📝 1 draft · ✖️ 2 closed
+**53** pull requests to **13** projects · ✅ 38 merged · 👍 1 approved · ⏳ 11 in review · 📝 1 draft · ✖️ 2 closed
+
+#### [PX4 Gazebo Models](https://github.com/PX4/PX4-gazebo-models)
+Gazebo simulation models for PX4 SITL: unique joint names in the differential rover model.
+
+- ⏳ [fix(rover_differential): give the rear caster joint its own name](https://github.com/PX4/PX4-gazebo-models/pull/168) <sub>in review, opened Nov 11, 2026</sub>
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning).
@@ -32,7 +37,7 @@ ArduPilot documentation: pages updated to the 4.7 parameter names (position cont
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
 
 - ⏳ [fix(module_config): count reverse range bits from the first channel](https://github.com/PX4/PX4-Autopilot/pull/29679) <sub>in review, opened Nov 7, 2026</sub>
-- ⏳ [chore(boards): drop stale assignments to undefined Kconfig symbols](https://github.com/PX4/PX4-Autopilot/pull/29670) <sub>in review, opened Nov 6, 2026</sub>
+- ⏳ [fix(kconfig): fail on undefined board symbols and drop stale ones](https://github.com/PX4/PX4-Autopilot/pull/29670) <sub>in review, opened Nov 6, 2026</sub>
 - ✅ [feat(tools): add a script to convert v1.17 parameter files for v1.18](https://github.com/PX4/PX4-Autopilot/pull/29363) <sub>merged Nov 6, 2026</sub>
 - ✅ [docs(instructions): require an upgrade path for removed parameters](https://github.com/PX4/PX4-Autopilot/pull/29637) <sub>merged Nov 5, 2026</sub>
 - ⏳ [fix(metadata): read all parameter yaml files and check none is left out](https://github.com/PX4/PX4-Autopilot/pull/29636) <sub>in review, opened Nov 5, 2026</sub>
@@ -121,4 +126,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 10, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 11, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
