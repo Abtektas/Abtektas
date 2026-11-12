@@ -18,17 +18,12 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**53** pull requests to **13** projects · ✅ 38 merged · 👍 1 approved · ⏳ 11 in review · 📝 1 draft · ✖️ 2 closed
-
-#### [PX4 Gazebo Models](https://github.com/PX4/PX4-gazebo-models)
-Gazebo simulation models for PX4 SITL: unique joint names in the differential rover model.
-
-- ⏳ [fix(rover_differential): give the rear caster joint its own name](https://github.com/PX4/PX4-gazebo-models/pull/168) <sub>in review, opened Nov 11, 2026</sub>
+**54** pull requests to **13** projects · ✅ 40 merged · ⏳ 11 in review · 📝 1 draft · ✖️ 2 closed
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning) and the 4.5 relay pin names.
 
-- ⏳ [Common: use the 4.5 RELAYn_PIN and RELAYn_DEFAULT names](https://github.com/ArduPilot/ardupilot_wiki/pull/8264) <sub>in review, opened Nov 10, 2026</sub>
+- ✅ [Common: use the 4.5 RELAYn_PIN and RELAYn_DEFAULT names](https://github.com/ArduPilot/ardupilot_wiki/pull/8264) <sub>merged Nov 12, 2026</sub>
 - ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
 - ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
 - ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
@@ -36,13 +31,14 @@ ArduPilot documentation: pages updated to the 4.7 parameter names (position cont
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
 
+- ⏳ [fix(metadata): document the parameters that moved to yaml files \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29770) <sub>in review, opened Nov 11, 2026</sub>
+- ✅ [fix(ekf2): keep v1.17 auxiliary global position settings on upgrade \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29541) <sub>merged Nov 11, 2026</sub>
 - ⏳ [fix(module_config): count reverse range bits from the first channel](https://github.com/PX4/PX4-Autopilot/pull/29679) <sub>in review, opened Nov 7, 2026</sub>
 - ⏳ [fix(kconfig): fail on undefined board symbols and drop stale ones](https://github.com/PX4/PX4-Autopilot/pull/29670) <sub>in review, opened Nov 6, 2026</sub>
 - ✅ [feat(tools): add a script to convert v1.17 parameter files for v1.18](https://github.com/PX4/PX4-Autopilot/pull/29363) <sub>merged Nov 6, 2026</sub>
 - ✅ [docs(instructions): require an upgrade path for removed parameters](https://github.com/PX4/PX4-Autopilot/pull/29637) <sub>merged Nov 5, 2026</sub>
 - ⏳ [fix(metadata): read all parameter yaml files and check none is left out](https://github.com/PX4/PX4-Autopilot/pull/29636) <sub>in review, opened Nov 5, 2026</sub>
 - ✅ [docs(releases): add v1.17 upgrade notes for parameter files, failsafes and defaults](https://github.com/PX4/PX4-Autopilot/pull/29356) <sub>merged Nov 2, 2026</sub>
-- 👍 [fix(ekf2): keep v1.17 auxiliary global position settings on upgrade \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29541) <sub>approved, opened Oct 31, 2026</sub>
 - ✅ [fix(ekf2): keep v1.17 auxiliary global position settings on upgrade](https://github.com/PX4/PX4-Autopilot/pull/29351) <sub>merged Oct 30, 2026</sub>
 - ✅ [fix(metadata): document the parameters that moved to yaml files](https://github.com/PX4/PX4-Autopilot/pull/29389) <sub>merged Oct 30, 2026</sub>
 - ✅ [fix(fw_mode_manager): ignore setpoints from before Offboard \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29465) <sub>merged Oct 30, 2026</sub>
@@ -56,6 +52,11 @@ Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upg
 - ✅ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>merged Oct 5, 2026</sub>
 - ⏳ [fix(ekf2): stop the test replay at the end of the sensor data](https://github.com/PX4/PX4-Autopilot/pull/28958) <sub>in review, opened Oct 1, 2026</sub>
 - ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
+
+#### [PX4 Gazebo Models](https://github.com/PX4/PX4-gazebo-models)
+Gazebo simulation models for PX4 SITL: unique joint names in the differential rover model.
+
+- ⏳ [fix(rover_differential): give the rear caster joint its own name](https://github.com/PX4/PX4-gazebo-models/pull/168) <sub>in review, opened Nov 11, 2026</sub>
 
 #### [flight-review-rs](https://github.com/PX4/flight-review-rs)
 Flight log analysis for ULog files: an analyzer for lost EKF position aiding.
@@ -126,4 +127,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 11, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 12, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
