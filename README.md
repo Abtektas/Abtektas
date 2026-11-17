@@ -18,7 +18,7 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**58** pull requests to **13** projects · ✅ 42 merged · ⏳ 12 in review · 📝 1 draft · ✖️ 3 closed
+**58** pull requests to **13** projects · ✅ 42 merged · 🔁 1 changes requested · ⏳ 11 in review · 📝 1 draft · ✖️ 3 closed
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
@@ -49,7 +49,7 @@ Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upg
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning) and the 4.5 relay pin names.
 
-- ⏳ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>in review, opened Nov 16, 2026</sub>
+- 🔁 [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>changes requested, opened Nov 16, 2026</sub>
 - ✅ [Wiki: use MAV_SYSID instead of SYSID_THISMAV](https://github.com/ArduPilot/ardupilot_wiki/pull/8291) <sub>merged Nov 14, 2026</sub>
 - ✖️ [Common: use the 4.4 CAM1_TYPE and CAM1_TRIGG_DIST names](https://github.com/ArduPilot/ardupilot_wiki/pull/8279) <sub>closed Nov 12, 2026</sub>
 - ✅ [Common: use the 4.5 RELAYn_PIN and RELAYn_DEFAULT names](https://github.com/ArduPilot/ardupilot_wiki/pull/8264) <sub>merged Nov 12, 2026</sub>
