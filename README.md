@@ -18,11 +18,12 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**56** pull requests to **13** projects · ✅ 42 merged · ⏳ 10 in review · 📝 1 draft · ✖️ 3 closed
+**58** pull requests to **13** projects · ✅ 42 merged · ⏳ 12 in review · 📝 1 draft · ✖️ 3 closed
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
 
+- ⏳ [feat(tools): add a script to convert v1.17 parameter files \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29830) <sub>in review, opened Nov 16, 2026</sub>
 - ✅ [fix(metadata): document the parameters that moved to yaml files \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29770) <sub>merged Nov 16, 2026</sub>
 - ✅ [fix(ekf2): keep v1.17 auxiliary global position settings on upgrade \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29541) <sub>merged Nov 11, 2026</sub>
 - ⏳ [fix(module_config): count reverse range bits from the first channel](https://github.com/PX4/PX4-Autopilot/pull/29679) <sub>in review, opened Nov 7, 2026</sub>
@@ -48,6 +49,7 @@ Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upg
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning) and the 4.5 relay pin names.
 
+- ⏳ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>in review, opened Nov 16, 2026</sub>
 - ✅ [Wiki: use MAV_SYSID instead of SYSID_THISMAV](https://github.com/ArduPilot/ardupilot_wiki/pull/8291) <sub>merged Nov 14, 2026</sub>
 - ✖️ [Common: use the 4.4 CAM1_TYPE and CAM1_TRIGG_DIST names](https://github.com/ArduPilot/ardupilot_wiki/pull/8279) <sub>closed Nov 12, 2026</sub>
 - ✅ [Common: use the 4.5 RELAYn_PIN and RELAYn_DEFAULT names](https://github.com/ArduPilot/ardupilot_wiki/pull/8264) <sub>merged Nov 12, 2026</sub>
@@ -129,4 +131,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 16, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 17, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
