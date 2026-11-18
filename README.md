@@ -18,12 +18,13 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**58** pull requests to **13** projects · ✅ 42 merged · 🔁 1 changes requested · ⏳ 11 in review · 📝 1 draft · ✖️ 3 closed
+**59** pull requests to **13** projects · ✅ 43 merged · 🔁 1 changes requested · ⏳ 11 in review · 📝 1 draft · ✖️ 3 closed
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
 
-- ⏳ [feat(tools): add a script to convert v1.17 parameter files \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29830) <sub>in review, opened Nov 16, 2026</sub>
+- ⏳ [fix(tools): drop COM_FLTT_LOW_ACT when converting v1.17 parameter files](https://github.com/PX4/PX4-Autopilot/pull/29874) <sub>in review, opened Nov 18, 2026</sub>
+- ✅ [feat(tools): add a script to convert v1.17 parameter files \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29830) <sub>merged Nov 18, 2026</sub>
 - ✅ [fix(metadata): document the parameters that moved to yaml files \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29770) <sub>merged Nov 16, 2026</sub>
 - ✅ [fix(ekf2): keep v1.17 auxiliary global position settings on upgrade \[1.18\]](https://github.com/PX4/PX4-Autopilot/pull/29541) <sub>merged Nov 11, 2026</sub>
 - ⏳ [fix(module_config): count reverse range bits from the first channel](https://github.com/PX4/PX4-Autopilot/pull/29679) <sub>in review, opened Nov 7, 2026</sub>
@@ -131,4 +132,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 17, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 18, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
