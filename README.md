@@ -18,7 +18,32 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**59** pull requests to **13** projects · ✅ 43 merged · 🔁 1 changes requested · ⏳ 11 in review · 📝 1 draft · ✖️ 3 closed
+**65** pull requests to **15** projects · ✅ 44 merged · ⏳ 17 in review · 📝 1 draft · ✖️ 3 closed
+
+#### [px4-ros2-interface-lib](https://github.com/Auterion/px4-ros2-interface-lib)
+Library to interface with PX4 from a companion computer using ROS 2
+
+- ⏳ [fix(build): pin px4_msgs to release/1.16](https://github.com/Auterion/px4-ros2-interface-lib/pull/247) <sub>in review, opened Nov 19, 2026</sub>
+- ⏳ [fix(build): pin px4_msgs to release/1.17](https://github.com/Auterion/px4-ros2-interface-lib/pull/246) <sub>in review, opened Nov 19, 2026</sub>
+- ⏳ [fix(build): pin px4_msgs to release/1.18](https://github.com/Auterion/px4-ros2-interface-lib/pull/245) <sub>in review, opened Nov 19, 2026</sub>
+- ⏳ [docs(odometry): note that vehicle_angular_velocity is not bridged by default](https://github.com/Auterion/px4-ros2-interface-lib/pull/244) <sub>in review, opened Nov 19, 2026</sub>
+- ⏳ [ci: pin px4_msgs to the release branch when creating one](https://github.com/Auterion/px4-ros2-interface-lib/pull/243) <sub>in review, opened Nov 19, 2026</sub>
+
+#### [mavros](https://github.com/mavlink/mavros)
+MAVLink to ROS gateway with proxy for Ground Control Station
+
+- ⏳ [mavros: add missing PX4 custom modes and POSCTL sub modes](https://github.com/mavlink/mavros/pull/2371) <sub>in review, opened Nov 19, 2026</sub>
+
+#### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
+ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning) and the 4.5 relay pin names.
+
+- ✅ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>merged Nov 19, 2026</sub>
+- ✅ [Wiki: use MAV_SYSID instead of SYSID_THISMAV](https://github.com/ArduPilot/ardupilot_wiki/pull/8291) <sub>merged Nov 14, 2026</sub>
+- ✖️ [Common: use the 4.4 CAM1_TYPE and CAM1_TRIGG_DIST names](https://github.com/ArduPilot/ardupilot_wiki/pull/8279) <sub>closed Nov 12, 2026</sub>
+- ✅ [Common: use the 4.5 RELAYn_PIN and RELAYn_DEFAULT names](https://github.com/ArduPilot/ardupilot_wiki/pull/8264) <sub>merged Nov 12, 2026</sub>
+- ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
+- ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
+- ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
@@ -46,17 +71,6 @@ Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upg
 - ✅ [fix(rover): silence missing HIWONDER_EMM_EN on builds without the driver](https://github.com/PX4/PX4-Autopilot/pull/28887) <sub>merged Oct 5, 2026</sub>
 - ⏳ [fix(ekf2): stop the test replay at the end of the sensor data](https://github.com/PX4/PX4-Autopilot/pull/28958) <sub>in review, opened Oct 1, 2026</sub>
 - ✅ [fix(fw_mode_manager): clear the course setpoint in Offboard](https://github.com/PX4/PX4-Autopilot/pull/28920) <sub>merged Sep 30, 2026</sub>
-
-#### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
-ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning) and the 4.5 relay pin names.
-
-- 🔁 [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>changes requested, opened Nov 16, 2026</sub>
-- ✅ [Wiki: use MAV_SYSID instead of SYSID_THISMAV](https://github.com/ArduPilot/ardupilot_wiki/pull/8291) <sub>merged Nov 14, 2026</sub>
-- ✖️ [Common: use the 4.4 CAM1_TYPE and CAM1_TRIGG_DIST names](https://github.com/ArduPilot/ardupilot_wiki/pull/8279) <sub>closed Nov 12, 2026</sub>
-- ✅ [Common: use the 4.5 RELAYn_PIN and RELAYn_DEFAULT names](https://github.com/ArduPilot/ardupilot_wiki/pull/8264) <sub>merged Nov 12, 2026</sub>
-- ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
-- ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
-- ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
 
 #### [PX4 Gazebo Models](https://github.com/PX4/PX4-gazebo-models)
 Gazebo simulation models for PX4 SITL: unique joint names in the differential rover model.
@@ -132,4 +146,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 18, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 19, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
