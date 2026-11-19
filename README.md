@@ -18,25 +18,12 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**65** pull requests to **15** projects · ✅ 44 merged · ⏳ 17 in review · 📝 1 draft · ✖️ 3 closed
-
-#### [px4-ros2-interface-lib](https://github.com/Auterion/px4-ros2-interface-lib)
-Library to interface with PX4 from a companion computer using ROS 2
-
-- ⏳ [fix(build): pin px4_msgs to release/1.16](https://github.com/Auterion/px4-ros2-interface-lib/pull/247) <sub>in review, opened Nov 19, 2026</sub>
-- ⏳ [fix(build): pin px4_msgs to release/1.17](https://github.com/Auterion/px4-ros2-interface-lib/pull/246) <sub>in review, opened Nov 19, 2026</sub>
-- ⏳ [fix(build): pin px4_msgs to release/1.18](https://github.com/Auterion/px4-ros2-interface-lib/pull/245) <sub>in review, opened Nov 19, 2026</sub>
-- ⏳ [docs(odometry): note that vehicle_angular_velocity is not bridged by default](https://github.com/Auterion/px4-ros2-interface-lib/pull/244) <sub>in review, opened Nov 19, 2026</sub>
-- ⏳ [ci: pin px4_msgs to the release branch when creating one](https://github.com/Auterion/px4-ros2-interface-lib/pull/243) <sub>in review, opened Nov 19, 2026</sub>
-
-#### [mavros](https://github.com/mavlink/mavros)
-MAVLink to ROS gateway with proxy for Ground Control Station
-
-- ⏳ [mavros: add missing PX4 custom modes and POSCTL sub modes](https://github.com/mavlink/mavros/pull/2371) <sub>in review, opened Nov 19, 2026</sub>
+**66** pull requests to **15** projects · ✅ 44 merged · ⏳ 18 in review · 📝 1 draft · ✖️ 3 closed
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning) and the 4.5 relay pin names.
 
+- ⏳ [common: EKF overview: drop the removed AHRS_EKF_USE parameter](https://github.com/ArduPilot/ardupilot_wiki/pull/8324) <sub>in review, opened Nov 19, 2026</sub>
 - ✅ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>merged Nov 19, 2026</sub>
 - ✅ [Wiki: use MAV_SYSID instead of SYSID_THISMAV](https://github.com/ArduPilot/ardupilot_wiki/pull/8291) <sub>merged Nov 14, 2026</sub>
 - ✖️ [Common: use the 4.4 CAM1_TYPE and CAM1_TRIGG_DIST names](https://github.com/ArduPilot/ardupilot_wiki/pull/8279) <sub>closed Nov 12, 2026</sub>
@@ -44,6 +31,20 @@ ArduPilot documentation: pages updated to the 4.7 parameter names (position cont
 - ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
 - ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
 - ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
+
+#### [PX4 ROS 2 Interface Library](https://github.com/Auterion/px4-ros2-interface-lib)
+C++ library for controlling PX4 from ROS 2: release branches pinned to the matching px4_msgs branch, odometry docs.
+
+- ⏳ [fix(build): pin px4_msgs to release/1.16](https://github.com/Auterion/px4-ros2-interface-lib/pull/247) <sub>in review, opened Nov 19, 2026</sub>
+- ⏳ [fix(build): pin px4_msgs to release/1.17](https://github.com/Auterion/px4-ros2-interface-lib/pull/246) <sub>in review, opened Nov 19, 2026</sub>
+- ⏳ [fix(build): pin px4_msgs to release/1.18](https://github.com/Auterion/px4-ros2-interface-lib/pull/245) <sub>in review, opened Nov 19, 2026</sub>
+- ⏳ [docs(odometry): note that vehicle_angular_velocity is not bridged by default](https://github.com/Auterion/px4-ros2-interface-lib/pull/244) <sub>in review, opened Nov 19, 2026</sub>
+- ⏳ [ci: pin px4_msgs to the release branch when creating one](https://github.com/Auterion/px4-ros2-interface-lib/pull/243) <sub>in review, opened Nov 19, 2026</sub>
+
+#### [MAVROS](https://github.com/mavlink/mavros)
+MAVLink to ROS 2 bridge: missing PX4 custom flight modes, including the Position Slow and Orbit sub modes.
+
+- ⏳ [mavros: add missing PX4 custom modes and POSCTL sub modes](https://github.com/mavlink/mavros/pull/2371) <sub>in review, opened Nov 19, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
