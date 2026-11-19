@@ -50,5 +50,13 @@
   "PX4/flight-review-rs": {
     "name": "flight-review-rs",
     "summary": "Flight log analysis for ULog files: an analyzer for lost EKF position aiding."
+  },
+  "mavlink/mavros": {
+    "name": "MAVROS",
+    "summary": "MAVLink to ROS 2 bridge: missing PX4 custom flight modes, including the Position Slow and Orbit sub modes."
+  },
+  "Auterion/px4-ros2-interface-lib": {
+    "name": "PX4 ROS 2 Interface Library",
+    "summary": "C++ library for controlling PX4 from ROS 2: release branches pinned to the matching px4_msgs branch, odometry docs."
   }
 }
