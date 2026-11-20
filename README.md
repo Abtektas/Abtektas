@@ -18,17 +18,19 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**70** pull requests to **19** projects · ✅ 50 merged · ⏳ 16 in review · 📝 1 draft · ✖️ 3 closed
-
-#### [pyulog](https://github.com/PX4/pyulog)
-Python ULog parser: data messages that log their trailing padding field, found by cross-checking five ULog parsers.
-
-- ⏳ [core: accept data with its trailing padding field logged](https://github.com/PX4/pyulog/pull/131) <sub>in review, opened Nov 20, 2026</sub>
+**72** pull requests to **19** projects · ✅ 50 merged · ⏳ 18 in review · 📝 1 draft · ✖️ 3 closed
 
 #### [ulog_cpp](https://github.com/PX4/ulog_cpp)
 C++ ULog reader and writer: string read fix for empty info messages, found by cross-checking five ULog parsers.
 
+- ⏳ [feat: read appended data](https://github.com/PX4/ulog_cpp/pull/24) <sub>in review, opened Nov 20, 2026</sub>
 - ✅ [fix: check the length limit before reading in strnlen](https://github.com/PX4/ulog_cpp/pull/23) <sub>merged Nov 20, 2026</sub>
+
+#### [pyulog](https://github.com/PX4/pyulog)
+Python ULog parser: data messages that log their trailing padding field, found by cross-checking five ULog parsers.
+
+- ⏳ [ci: run the Python 3.9 tests on ubuntu-24.04](https://github.com/PX4/pyulog/pull/132) <sub>in review, opened Nov 20, 2026</sub>
+- ⏳ [core: accept data with its trailing padding field logged](https://github.com/PX4/pyulog/pull/131) <sub>in review, opened Nov 20, 2026</sub>
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped.
