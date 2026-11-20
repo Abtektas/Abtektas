@@ -26,7 +26,7 @@ Go MAVLink library: CRC extra of messages with a single char field, found by cro
 - ⏳ [fix(message): exclude the length of single char fields from CRC extra](https://github.com/bluenviron/gomavlib/pull/313) <sub>in review, opened Nov 20, 2026</sub>
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
-ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning) and the 4.5 relay pin names.
+ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped.
 
 - ⏳ [common: EKF overview: drop the removed AHRS_EKF_USE parameter](https://github.com/ArduPilot/ardupilot_wiki/pull/8324) <sub>in review, opened Nov 19, 2026</sub>
 - ✅ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>merged Nov 19, 2026</sub>
