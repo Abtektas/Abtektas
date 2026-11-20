@@ -58,5 +58,9 @@
   "Auterion/px4-ros2-interface-lib": {
     "name": "PX4 ROS 2 Interface Library",
     "summary": "C++ library for controlling PX4 from ROS 2: release branches pinned to the matching px4_msgs branch, odometry docs."
+  },
+  "bluenviron/gomavlib": {
+    "name": "gomavlib",
+    "summary": "Go MAVLink library: CRC extra of messages with a single char field, found by cross-checking every message against pymavlink."
   }
 }
