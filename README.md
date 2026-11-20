@@ -3,7 +3,7 @@
   <img alt="Ahmet Burak Tektas: drones, robotics and simulation" src="assets/header-light.svg" width="100%">
 </picture>
 
-I'm Burak, based in Oslo. I contribute upstream to open-source drone autopilots (PX4, ArduPilot), ground control and simulation tools, and build small tools of my own.
+I'm Burak, based in Oslo. I contribute upstream to open-source drone autopilots (PX4, ArduPilot), the MAVLink and ROS 2 tooling around them, ground control and simulation tools, and build small tools of my own.
 
 <a href="https://linkedin.com/in/abtektas"><img alt="Connect on LinkedIn" src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
