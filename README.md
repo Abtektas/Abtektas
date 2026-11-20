@@ -18,7 +18,12 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**66** pull requests to **15** projects · ✅ 44 merged · ⏳ 18 in review · 📝 1 draft · ✖️ 3 closed
+**67** pull requests to **16** projects · ✅ 44 merged · ⏳ 19 in review · 📝 1 draft · ✖️ 3 closed
+
+#### [gomavlib](https://github.com/bluenviron/gomavlib)
+Go MAVLink library: CRC extra of messages with a single char field, found by cross-checking every message against pymavlink.
+
+- ⏳ [fix(message): exclude the length of single char fields from CRC extra](https://github.com/bluenviron/gomavlib/pull/313) <sub>in review, opened Nov 20, 2026</sub>
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to the 4.7 parameter names (position controller, rangefinder, QuadPlane tuning) and the 4.5 relay pin names.
@@ -147,4 +152,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 19, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 20, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
