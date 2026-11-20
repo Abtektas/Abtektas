@@ -18,7 +18,21 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**68** pull requests to **17** projects · ✅ 44 merged · ⏳ 20 in review · 📝 1 draft · ✖️ 3 closed
+**69** pull requests to **18** projects · ✅ 48 merged · ⏳ 17 in review · 📝 1 draft · ✖️ 3 closed
+
+#### [ulog_cpp](https://github.com/PX4/ulog_cpp)
+C++ ULog reader and writer: string read fix for empty info messages, found by cross-checking five ULog parsers.
+
+- ⏳ [fix: check the length limit before reading in strnlen](https://github.com/PX4/ulog_cpp/pull/23) <sub>in review, opened Nov 20, 2026</sub>
+
+#### [PX4 ROS 2 Interface Library](https://github.com/Auterion/px4-ros2-interface-lib)
+C++ library for controlling PX4 from ROS 2: release branches pinned to the matching px4_msgs branch, odometry docs.
+
+- ✅ [fix(build): pin px4_msgs to release/1.16](https://github.com/Auterion/px4-ros2-interface-lib/pull/247) <sub>merged Nov 20, 2026</sub>
+- ✅ [fix(build): pin px4_msgs to release/1.17](https://github.com/Auterion/px4-ros2-interface-lib/pull/246) <sub>merged Nov 20, 2026</sub>
+- ✅ [fix(build): pin px4_msgs to release/1.18](https://github.com/Auterion/px4-ros2-interface-lib/pull/245) <sub>merged Nov 20, 2026</sub>
+- ✅ [docs(odometry): note that vehicle_angular_velocity is not bridged by default](https://github.com/Auterion/px4-ros2-interface-lib/pull/244) <sub>merged Nov 20, 2026</sub>
+- ⏳ [ci: pin px4_msgs to the release branch when creating one](https://github.com/Auterion/px4-ros2-interface-lib/pull/243) <sub>in review, opened Nov 19, 2026</sub>
 
 #### [MCAP](https://github.com/foxglove/mcap)
 Robotics log file format with readers in six languages: cross-language scan of spec edge cases, Swift streamed reader fix for empty chunks.
@@ -41,15 +55,6 @@ ArduPilot documentation: pages updated to current parameter names (4.7 position 
 - ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
 - ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
 - ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
-
-#### [PX4 ROS 2 Interface Library](https://github.com/Auterion/px4-ros2-interface-lib)
-C++ library for controlling PX4 from ROS 2: release branches pinned to the matching px4_msgs branch, odometry docs.
-
-- ⏳ [fix(build): pin px4_msgs to release/1.16](https://github.com/Auterion/px4-ros2-interface-lib/pull/247) <sub>in review, opened Nov 19, 2026</sub>
-- ⏳ [fix(build): pin px4_msgs to release/1.17](https://github.com/Auterion/px4-ros2-interface-lib/pull/246) <sub>in review, opened Nov 19, 2026</sub>
-- ⏳ [fix(build): pin px4_msgs to release/1.18](https://github.com/Auterion/px4-ros2-interface-lib/pull/245) <sub>in review, opened Nov 19, 2026</sub>
-- ⏳ [docs(odometry): note that vehicle_angular_velocity is not bridged by default](https://github.com/Auterion/px4-ros2-interface-lib/pull/244) <sub>in review, opened Nov 19, 2026</sub>
-- ⏳ [ci: pin px4_msgs to the release branch when creating one](https://github.com/Auterion/px4-ros2-interface-lib/pull/243) <sub>in review, opened Nov 19, 2026</sub>
 
 #### [MAVROS](https://github.com/mavlink/mavros)
 MAVLink to ROS 2 bridge: missing PX4 custom flight modes, including the Position Slow and Orbit sub modes.
