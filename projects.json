@@ -62,5 +62,9 @@
   "bluenviron/gomavlib": {
     "name": "gomavlib",
     "summary": "Go MAVLink library: CRC extra of messages with a single char field, found by cross-checking every message against pymavlink."
+  },
+  "foxglove/mcap": {
+    "name": "MCAP",
+    "summary": "Robotics log file format with readers in six languages: cross-language scan of spec edge cases, Swift streamed reader fix for empty chunks."
   }
 }
