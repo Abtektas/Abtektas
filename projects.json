@@ -70,5 +70,9 @@
   "PX4/ulog_cpp": {
     "name": "ulog_cpp",
     "summary": "C++ ULog reader and writer: string read fix for empty info messages, found by cross-checking five ULog parsers."
+  },
+  "PX4/pyulog": {
+    "name": "pyulog",
+    "summary": "Python ULog parser: data messages that log their trailing padding field, found by cross-checking five ULog parsers."
   }
 }
