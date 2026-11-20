@@ -66,5 +66,9 @@
   "foxglove/mcap": {
     "name": "MCAP",
     "summary": "Robotics log file format with readers in six languages: cross-language scan of spec edge cases, Swift streamed reader fix for empty chunks."
+  },
+  "PX4/ulog_cpp": {
+    "name": "ulog_cpp",
+    "summary": "C++ ULog reader and writer: string read fix for empty info messages, found by cross-checking five ULog parsers."
   }
 }
