@@ -18,7 +18,12 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**67** pull requests to **16** projects · ✅ 44 merged · ⏳ 19 in review · 📝 1 draft · ✖️ 3 closed
+**68** pull requests to **17** projects · ✅ 44 merged · ⏳ 20 in review · 📝 1 draft · ✖️ 3 closed
+
+#### [MCAP](https://github.com/foxglove/mcap)
+Robotics log file format with readers in six languages: cross-language scan of spec edge cases, Swift streamed reader fix for empty chunks.
+
+- ⏳ [swift: read chunks that end without a record to emit](https://github.com/foxglove/mcap/pull/1941) <sub>in review, opened Nov 20, 2026</sub>
 
 #### [gomavlib](https://github.com/bluenviron/gomavlib)
 Go MAVLink library: CRC extra of messages with a single char field, found by cross-checking every message against pymavlink.
