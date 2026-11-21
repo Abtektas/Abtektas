@@ -18,12 +18,24 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**73** pull requests to **19** projects · ✅ 50 merged · ⏳ 19 in review · 📝 1 draft · ✖️ 3 closed
+**74** pull requests to **19** projects · ✅ 51 merged · ⏳ 19 in review · 📝 1 draft · ✖️ 3 closed
+
+#### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
+MAVLink proxy and command-line ground station: console completion fixes.
+
+- ⏳ [tuneopt, misc, instructor: use current parameter names](https://github.com/ArduPilot/MAVProxy/pull/1801) <sub>in review, opened Nov 21, 2026</sub>
+- ✅ [OpenDroneID: use the UTC epoch for the 2019 timestamp](https://github.com/ArduPilot/MAVProxy/pull/1767) <sub>merged Oct 8, 2026</sub>
+- ✅ [rline: don't let a short completion rule break the others](https://github.com/ArduPilot/MAVProxy/pull/1765) <sub>merged Oct 1, 2026</sub>
+
+#### [MAVROS](https://github.com/mavlink/mavros)
+MAVLink to ROS 2 bridge: missing PX4 custom flight modes, including the Position Slow and Orbit sub modes.
+
+- ✅ [mavros: add missing PX4 custom modes and POSCTL sub modes](https://github.com/mavlink/mavros/pull/2371) <sub>merged Nov 21, 2026</sub>
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped.
 
-- ⏳ [Dev: SITL parameters: use SIM_ACC1_RND for vibration testing](https://github.com/ArduPilot/ardupilot_wiki/pull/8328) <sub>in review, opened Nov 21, 2026</sub>
+- ⏳ [Dev: SITL parameters: fix the vibration testing example](https://github.com/ArduPilot/ardupilot_wiki/pull/8328) <sub>in review, opened Nov 21, 2026</sub>
 - ✅ [common: EKF overview: drop the removed AHRS_EKF_USE parameter](https://github.com/ArduPilot/ardupilot_wiki/pull/8324) <sub>merged Nov 20, 2026</sub>
 - ✅ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>merged Nov 19, 2026</sub>
 - ✅ [Wiki: use MAV_SYSID instead of SYSID_THISMAV](https://github.com/ArduPilot/ardupilot_wiki/pull/8291) <sub>merged Nov 14, 2026</sub>
@@ -63,11 +75,6 @@ Robotics log file format with readers in six languages: cross-language scan of s
 Go MAVLink library: CRC extra of messages with a single char field, found by cross-checking every message against pymavlink.
 
 - ⏳ [fix(message): exclude the length of single char fields from CRC extra](https://github.com/bluenviron/gomavlib/pull/313) <sub>in review, opened Nov 20, 2026</sub>
-
-#### [MAVROS](https://github.com/mavlink/mavros)
-MAVLink to ROS 2 bridge: missing PX4 custom flight modes, including the Position Slow and Orbit sub modes.
-
-- ⏳ [mavros: add missing PX4 custom modes and POSCTL sub modes](https://github.com/mavlink/mavros/pull/2371) <sub>in review, opened Nov 19, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
@@ -131,12 +138,6 @@ Drone flight stack: QuadPlane tailsitter setup, SITL autotest and HAL test fixes
 - ✅ [autotest: fix and re-enable Plane.TerrainRally](https://github.com/ArduPilot/ardupilot/pull/34517) <sub>merged Oct 12, 2026</sub>
 - ⏳ [Plane: set tailsitter enable before creating the VTOL AHRS view](https://github.com/ArduPilot/ardupilot/pull/34643) <sub>in review, opened Oct 6, 2026</sub>
 - ✅ [AP_HAL: fix DSP_test reading past the end of gyro_frames](https://github.com/ArduPilot/ardupilot/pull/34502) <sub>merged Oct 6, 2026</sub>
-
-#### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
-MAVLink proxy and command-line ground station: console completion fixes.
-
-- ✅ [OpenDroneID: use the UTC epoch for the 2019 timestamp](https://github.com/ArduPilot/MAVProxy/pull/1767) <sub>merged Oct 8, 2026</sub>
-- ✅ [rline: don't let a short completion rule break the others](https://github.com/ArduPilot/MAVProxy/pull/1765) <sub>merged Oct 1, 2026</sub>
 
 #### [Magistrala](https://github.com/absmach/magistrala)
 IoT platform: message reader time bounds, CLI docs and certificate Makefile fixes.
