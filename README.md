@@ -18,7 +18,20 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**72** pull requests to **19** projects · ✅ 50 merged · ⏳ 18 in review · 📝 1 draft · ✖️ 3 closed
+**73** pull requests to **19** projects · ✅ 50 merged · ⏳ 19 in review · 📝 1 draft · ✖️ 3 closed
+
+#### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
+ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped.
+
+- ⏳ [Dev: SITL parameters: use SIM_ACC1_RND for vibration testing](https://github.com/ArduPilot/ardupilot_wiki/pull/8328) <sub>in review, opened Nov 21, 2026</sub>
+- ✅ [common: EKF overview: drop the removed AHRS_EKF_USE parameter](https://github.com/ArduPilot/ardupilot_wiki/pull/8324) <sub>merged Nov 20, 2026</sub>
+- ✅ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>merged Nov 19, 2026</sub>
+- ✅ [Wiki: use MAV_SYSID instead of SYSID_THISMAV](https://github.com/ArduPilot/ardupilot_wiki/pull/8291) <sub>merged Nov 14, 2026</sub>
+- ✖️ [Common: use the 4.4 CAM1_TYPE and CAM1_TRIGG_DIST names](https://github.com/ArduPilot/ardupilot_wiki/pull/8279) <sub>closed Nov 12, 2026</sub>
+- ✅ [Common: use the 4.5 RELAYn_PIN and RELAYn_DEFAULT names](https://github.com/ArduPilot/ardupilot_wiki/pull/8264) <sub>merged Nov 12, 2026</sub>
+- ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
+- ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
+- ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
 
 #### [ulog_cpp](https://github.com/PX4/ulog_cpp)
 C++ ULog reader and writer: string read fix for empty info messages, found by cross-checking five ULog parsers.
@@ -31,18 +44,6 @@ Python ULog parser: data messages that log their trailing padding field, found b
 
 - ⏳ [ci: run the Python 3.9 tests on ubuntu-24.04](https://github.com/PX4/pyulog/pull/132) <sub>in review, opened Nov 20, 2026</sub>
 - ⏳ [core: accept data with its trailing padding field logged](https://github.com/PX4/pyulog/pull/131) <sub>in review, opened Nov 20, 2026</sub>
-
-#### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
-ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped.
-
-- ✅ [common: EKF overview: drop the removed AHRS_EKF_USE parameter](https://github.com/ArduPilot/ardupilot_wiki/pull/8324) <sub>merged Nov 20, 2026</sub>
-- ✅ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>merged Nov 19, 2026</sub>
-- ✅ [Wiki: use MAV_SYSID instead of SYSID_THISMAV](https://github.com/ArduPilot/ardupilot_wiki/pull/8291) <sub>merged Nov 14, 2026</sub>
-- ✖️ [Common: use the 4.4 CAM1_TYPE and CAM1_TRIGG_DIST names](https://github.com/ArduPilot/ardupilot_wiki/pull/8279) <sub>closed Nov 12, 2026</sub>
-- ✅ [Common: use the 4.5 RELAYn_PIN and RELAYn_DEFAULT names](https://github.com/ArduPilot/ardupilot_wiki/pull/8264) <sub>merged Nov 12, 2026</sub>
-- ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
-- ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
-- ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
 
 #### [PX4 ROS 2 Interface Library](https://github.com/Auterion/px4-ros2-interface-lib)
 C++ library for controlling PX4 from ROS 2: release branches pinned to the matching px4_msgs branch, odometry docs.
@@ -169,4 +170,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 20, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 21, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
