@@ -18,16 +18,12 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**75** pull requests to **20** projects · ✅ 54 merged · ⏳ 17 in review · 📝 1 draft · ✖️ 3 closed
-
-#### [Flight Review](https://github.com/PX4/flight_review)
-Web log viewer behind logs.px4.io: Airspeed plot and airspeed temperature restored for logs from newer PX4 releases.
-
-- ⏳ [fix(plots): restore the Airspeed plot for PX4 v1.17+ logs](https://github.com/PX4/flight_review/pull/356) <sub>in review, opened Nov 22, 2026</sub>
+**76** pull requests to **20** projects · ✅ 54 merged · ⏳ 18 in review · 📝 1 draft · ✖️ 3 closed
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped.
 
+- ⏳ [Dev: EKF2: use the current parameter names and fix parameter facts](https://github.com/ArduPilot/ardupilot_wiki/pull/8333) <sub>in review, opened Nov 22, 2026</sub>
 - ✅ [Dev: SITL parameters: fix the vibration testing example](https://github.com/ArduPilot/ardupilot_wiki/pull/8328) <sub>merged Nov 22, 2026</sub>
 - ✅ [common: EKF overview: drop the removed AHRS_EKF_USE parameter](https://github.com/ArduPilot/ardupilot_wiki/pull/8324) <sub>merged Nov 20, 2026</sub>
 - ✅ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>merged Nov 19, 2026</sub>
@@ -37,6 +33,11 @@ ArduPilot documentation: pages updated to current parameter names (4.7 position 
 - ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
 - ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
 - ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
+
+#### [Flight Review](https://github.com/PX4/flight_review)
+Web log viewer behind logs.px4.io: Airspeed plot and airspeed temperature restored for logs from newer PX4 releases.
+
+- ⏳ [fix(plots): restore the Airspeed plot for PX4 v1.17+ logs](https://github.com/PX4/flight_review/pull/356) <sub>in review, opened Nov 22, 2026</sub>
 
 #### [gomavlib](https://github.com/bluenviron/gomavlib)
 Go MAVLink library: CRC extra of messages with a single char field, found by cross-checking every message against pymavlink.
