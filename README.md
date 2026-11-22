@@ -18,7 +18,12 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**74** pull requests to **19** projects · ✅ 51 merged · ⏳ 19 in review · 📝 1 draft · ✖️ 3 closed
+**74** pull requests to **19** projects · ✅ 52 merged · ⏳ 18 in review · 📝 1 draft · ✖️ 3 closed
+
+#### [PySR](https://github.com/astroautomata/PySR)
+Symbolic regression library: pandas DataFrame column-name handling.
+
+- ✅ [fix: keep DataFrame column names that are str subclasses](https://github.com/astroautomata/PySR/pull/1441) <sub>merged Nov 22, 2026</sub>
 
 #### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
 MAVLink proxy and command-line ground station: console completion fixes.
@@ -113,11 +118,6 @@ Flight log analysis for ULog files: an analyzer for lost EKF position aiding.
 
 - 📝 [Add position_aiding_loss analyzer](https://github.com/PX4/flight-review-rs/pull/58) <sub>draft, opened Nov 6, 2026</sub>
 
-#### [PySR](https://github.com/astroautomata/PySR)
-Symbolic regression library: pandas DataFrame column-name handling.
-
-- ⏳ [fix: keep DataFrame column names that are str subclasses](https://github.com/astroautomata/PySR/pull/1441) <sub>in review, opened Oct 19, 2026</sub>
-
 #### [Gazebo Sensors](https://github.com/gazebosim/gz-sensors)
 Robot simulator sensor models: air pressure sensor SDF configuration.
 
@@ -171,4 +171,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 21, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 22, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
