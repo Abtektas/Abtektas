@@ -18,7 +18,30 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**74** pull requests to **19** projects · ✅ 52 merged · ⏳ 18 in review · 📝 1 draft · ✖️ 3 closed
+**75** pull requests to **20** projects · ✅ 54 merged · ⏳ 17 in review · 📝 1 draft · ✖️ 3 closed
+
+#### [Flight Review](https://github.com/PX4/flight_review)
+Web log viewer behind logs.px4.io: Airspeed plot and airspeed temperature restored for logs from newer PX4 releases.
+
+- ⏳ [fix(plots): restore the Airspeed plot for PX4 v1.17+ logs](https://github.com/PX4/flight_review/pull/356) <sub>in review, opened Nov 22, 2026</sub>
+
+#### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
+ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped.
+
+- ✅ [Dev: SITL parameters: fix the vibration testing example](https://github.com/ArduPilot/ardupilot_wiki/pull/8328) <sub>merged Nov 22, 2026</sub>
+- ✅ [common: EKF overview: drop the removed AHRS_EKF_USE parameter](https://github.com/ArduPilot/ardupilot_wiki/pull/8324) <sub>merged Nov 20, 2026</sub>
+- ✅ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>merged Nov 19, 2026</sub>
+- ✅ [Wiki: use MAV_SYSID instead of SYSID_THISMAV](https://github.com/ArduPilot/ardupilot_wiki/pull/8291) <sub>merged Nov 14, 2026</sub>
+- ✖️ [Common: use the 4.4 CAM1_TYPE and CAM1_TRIGG_DIST names](https://github.com/ArduPilot/ardupilot_wiki/pull/8279) <sub>closed Nov 12, 2026</sub>
+- ✅ [Common: use the 4.5 RELAYn_PIN and RELAYn_DEFAULT names](https://github.com/ArduPilot/ardupilot_wiki/pull/8264) <sub>merged Nov 12, 2026</sub>
+- ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
+- ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
+- ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
+
+#### [gomavlib](https://github.com/bluenviron/gomavlib)
+Go MAVLink library: CRC extra of messages with a single char field, found by cross-checking every message against pymavlink.
+
+- ✅ [fix(message): exclude the length of single char fields from CRC extra](https://github.com/bluenviron/gomavlib/pull/313) <sub>merged Nov 22, 2026</sub>
 
 #### [PySR](https://github.com/astroautomata/PySR)
 Symbolic regression library: pandas DataFrame column-name handling.
@@ -36,19 +59,6 @@ MAVLink proxy and command-line ground station: console completion fixes.
 MAVLink to ROS 2 bridge: missing PX4 custom flight modes, including the Position Slow and Orbit sub modes.
 
 - ✅ [mavros: add missing PX4 custom modes and POSCTL sub modes](https://github.com/mavlink/mavros/pull/2371) <sub>merged Nov 21, 2026</sub>
-
-#### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
-ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped.
-
-- ⏳ [Dev: SITL parameters: fix the vibration testing example](https://github.com/ArduPilot/ardupilot_wiki/pull/8328) <sub>in review, opened Nov 21, 2026</sub>
-- ✅ [common: EKF overview: drop the removed AHRS_EKF_USE parameter](https://github.com/ArduPilot/ardupilot_wiki/pull/8324) <sub>merged Nov 20, 2026</sub>
-- ✅ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>merged Nov 19, 2026</sub>
-- ✅ [Wiki: use MAV_SYSID instead of SYSID_THISMAV](https://github.com/ArduPilot/ardupilot_wiki/pull/8291) <sub>merged Nov 14, 2026</sub>
-- ✖️ [Common: use the 4.4 CAM1_TYPE and CAM1_TRIGG_DIST names](https://github.com/ArduPilot/ardupilot_wiki/pull/8279) <sub>closed Nov 12, 2026</sub>
-- ✅ [Common: use the 4.5 RELAYn_PIN and RELAYn_DEFAULT names](https://github.com/ArduPilot/ardupilot_wiki/pull/8264) <sub>merged Nov 12, 2026</sub>
-- ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
-- ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
-- ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
 
 #### [ulog_cpp](https://github.com/PX4/ulog_cpp)
 C++ ULog reader and writer: string read fix for empty info messages, found by cross-checking five ULog parsers.
@@ -75,11 +85,6 @@ C++ library for controlling PX4 from ROS 2: release branches pinned to the match
 Robotics log file format with readers in six languages: cross-language scan of spec edge cases, Swift streamed reader fix for empty chunks.
 
 - ⏳ [swift: read chunks that end without a record to emit](https://github.com/foxglove/mcap/pull/1941) <sub>in review, opened Nov 20, 2026</sub>
-
-#### [gomavlib](https://github.com/bluenviron/gomavlib)
-Go MAVLink library: CRC extra of messages with a single char field, found by cross-checking every message against pymavlink.
-
-- ⏳ [fix(message): exclude the length of single char fields from CRC extra](https://github.com/bluenviron/gomavlib/pull/313) <sub>in review, opened Nov 20, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
