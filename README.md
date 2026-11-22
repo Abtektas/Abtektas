@@ -18,7 +18,12 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**76** pull requests to **20** projects · ✅ 54 merged · ⏳ 18 in review · 📝 1 draft · ✖️ 3 closed
+**77** pull requests to **21** projects · ✅ 54 merged · ⏳ 19 in review · 📝 1 draft · ✖️ 3 closed
+
+#### [MAVLink](https://github.com/mavlink/mavlink)
+MAVLink message definitions: TUNE_FORMAT marked as a bitmask, so strict-enum parsers such as rust-mavlink accept vehicles that support both tune formats.
+
+- ⏳ [common: mark TUNE_FORMAT as a bitmask](https://github.com/mavlink/mavlink/pull/2687) <sub>in review, opened Nov 22, 2026</sub>
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped.
