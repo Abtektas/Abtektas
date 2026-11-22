@@ -78,5 +78,9 @@
   "PX4/pyulog": {
     "name": "pyulog",
     "summary": "Python ULog parser: data messages that log their trailing padding field, found by cross-checking five ULog parsers."
+  },
+  "mavlink/mavlink": {
+    "name": "MAVLink",
+    "summary": "MAVLink message definitions: TUNE_FORMAT marked as a bitmask, so strict-enum parsers such as rust-mavlink accept vehicles that support both tune formats."
   }
 }
