@@ -51,6 +51,10 @@
     "name": "flight-review-rs",
     "summary": "Flight log analysis for ULog files: an analyzer for lost EKF position aiding."
   },
+  "PX4/flight_review": {
+    "name": "Flight Review",
+    "summary": "Web log viewer behind logs.px4.io: Airspeed plot and airspeed temperature restored for logs from newer PX4 releases."
+  },
   "mavlink/mavros": {
     "name": "MAVROS",
     "summary": "MAVLink to ROS 2 bridge: missing PX4 custom flight modes, including the Position Slow and Orbit sub modes."
