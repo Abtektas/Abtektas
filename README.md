@@ -18,17 +18,17 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**77** pull requests to **21** projects · ✅ 54 merged · ⏳ 19 in review · 📝 1 draft · ✖️ 3 closed
+**77** pull requests to **21** projects · ✅ 55 merged · ⏳ 17 in review · 📝 1 draft · ✖️ 4 closed
 
-#### [MAVLink](https://github.com/mavlink/mavlink)
-MAVLink message definitions: TUNE_FORMAT marked as a bitmask, so strict-enum parsers such as rust-mavlink accept vehicles that support both tune formats.
+#### [MCAP](https://github.com/foxglove/mcap)
+Robotics log file format with readers in six languages: cross-language scan of spec edge cases, Swift streamed reader fix for empty chunks.
 
-- ⏳ [common: mark TUNE_FORMAT as a bitmask](https://github.com/mavlink/mavlink/pull/2687) <sub>in review, opened Nov 22, 2026</sub>
+- ✅ [swift: read chunks that end without a record to emit](https://github.com/foxglove/mcap/pull/1941) <sub>merged Nov 23, 2026</sub>
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
 ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped.
 
-- ⏳ [Dev: EKF2: use the current parameter names and fix parameter facts](https://github.com/ArduPilot/ardupilot_wiki/pull/8333) <sub>in review, opened Nov 22, 2026</sub>
+- ✖️ [Dev: EKF2: use the current parameter names and fix parameter facts](https://github.com/ArduPilot/ardupilot_wiki/pull/8333) <sub>closed Nov 23, 2026</sub>
 - ✅ [Dev: SITL parameters: fix the vibration testing example](https://github.com/ArduPilot/ardupilot_wiki/pull/8328) <sub>merged Nov 22, 2026</sub>
 - ✅ [common: EKF overview: drop the removed AHRS_EKF_USE parameter](https://github.com/ArduPilot/ardupilot_wiki/pull/8324) <sub>merged Nov 20, 2026</sub>
 - ✅ [Wiki: use current GPS and SITL GPS parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8305) <sub>merged Nov 19, 2026</sub>
@@ -38,6 +38,11 @@ ArduPilot documentation: pages updated to current parameter names (4.7 position 
 - ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
 - ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
 - ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
+
+#### [MAVLink](https://github.com/mavlink/mavlink)
+MAVLink message definitions: TUNE_FORMAT marked as a bitmask, so strict-enum parsers such as rust-mavlink accept vehicles that support both tune formats.
+
+- ⏳ [common: mark TUNE_FORMAT as a bitmask](https://github.com/mavlink/mavlink/pull/2687) <sub>in review, opened Nov 22, 2026</sub>
 
 #### [Flight Review](https://github.com/PX4/flight_review)
 Web log viewer behind logs.px4.io: Airspeed plot and airspeed temperature restored for logs from newer PX4 releases.
@@ -75,7 +80,7 @@ C++ ULog reader and writer: string read fix for empty info messages, found by cr
 #### [pyulog](https://github.com/PX4/pyulog)
 Python ULog parser: data messages that log their trailing padding field, found by cross-checking five ULog parsers.
 
-- ⏳ [ci: run the Python 3.9 tests on ubuntu-24.04](https://github.com/PX4/pyulog/pull/132) <sub>in review, opened Nov 20, 2026</sub>
+- ⏳ [ci: drop Python 3.9 and test on Python 3.15](https://github.com/PX4/pyulog/pull/132) <sub>in review, opened Nov 20, 2026</sub>
 - ⏳ [core: accept data with its trailing padding field logged](https://github.com/PX4/pyulog/pull/131) <sub>in review, opened Nov 20, 2026</sub>
 
 #### [PX4 ROS 2 Interface Library](https://github.com/Auterion/px4-ros2-interface-lib)
@@ -86,11 +91,6 @@ C++ library for controlling PX4 from ROS 2: release branches pinned to the match
 - ✅ [fix(build): pin px4_msgs to release/1.18](https://github.com/Auterion/px4-ros2-interface-lib/pull/245) <sub>merged Nov 20, 2026</sub>
 - ✅ [docs(odometry): note that vehicle_angular_velocity is not bridged by default](https://github.com/Auterion/px4-ros2-interface-lib/pull/244) <sub>merged Nov 20, 2026</sub>
 - ⏳ [ci: pin px4_msgs to the release branch when creating one](https://github.com/Auterion/px4-ros2-interface-lib/pull/243) <sub>in review, opened Nov 19, 2026</sub>
-
-#### [MCAP](https://github.com/foxglove/mcap)
-Robotics log file format with readers in six languages: cross-language scan of spec edge cases, Swift streamed reader fix for empty chunks.
-
-- ⏳ [swift: read chunks that end without a record to emit](https://github.com/foxglove/mcap/pull/1941) <sub>in review, opened Nov 20, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
@@ -182,4 +182,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 22, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 24, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
