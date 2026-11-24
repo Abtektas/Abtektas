@@ -18,13 +18,25 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**77** pull requests to **21** projects · ✅ 58 merged · ⏳ 14 in review · 📝 1 draft · ✖️ 4 closed
+**78** pull requests to **21** projects · ✅ 60 merged · ⏳ 13 in review · 📝 1 draft · ✖️ 4 closed
+
+#### [MAVLink](https://github.com/mavlink/mavlink)
+MAVLink message definitions: TUNE_FORMAT marked as a bitmask, so strict-enum parsers such as rust-mavlink accept vehicles that support both tune formats.
+
+- ✅ [common: mark TUNE_FORMAT as a bitmask](https://github.com/mavlink/mavlink/pull/2687) <sub>merged Nov 24, 2026</sub>
 
 #### [pyulog](https://github.com/PX4/pyulog)
 Python ULog parser: data messages that log their trailing padding field, found by cross-checking five ULog parsers.
 
+- ⏳ [core: read data messages in the appended data sections](https://github.com/PX4/pyulog/pull/135) <sub>in review, opened Nov 24, 2026</sub>
 - ✅ [core: accept data with its trailing padding field logged](https://github.com/PX4/pyulog/pull/131) <sub>merged Nov 24, 2026</sub>
 - ✅ [ci: drop Python 3.9 and test on Python 3.15](https://github.com/PX4/pyulog/pull/132) <sub>merged Nov 24, 2026</sub>
+
+#### [ulog_cpp](https://github.com/PX4/ulog_cpp)
+C++ ULog reader and writer: string read fix for empty info messages, found by cross-checking five ULog parsers.
+
+- ✅ [feat: read appended data](https://github.com/PX4/ulog_cpp/pull/24) <sub>merged Nov 24, 2026</sub>
+- ✅ [fix: check the length limit before reading in strnlen](https://github.com/PX4/ulog_cpp/pull/23) <sub>merged Nov 20, 2026</sub>
 
 #### [PX4 ROS 2 Interface Library](https://github.com/Auterion/px4-ros2-interface-lib)
 C++ library for controlling PX4 from ROS 2: release branches pinned to the matching px4_msgs branch, odometry docs.
@@ -54,11 +66,6 @@ ArduPilot documentation: pages updated to current parameter names (4.7 position 
 - ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
 - ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
 
-#### [MAVLink](https://github.com/mavlink/mavlink)
-MAVLink message definitions: TUNE_FORMAT marked as a bitmask, so strict-enum parsers such as rust-mavlink accept vehicles that support both tune formats.
-
-- ⏳ [common: mark TUNE_FORMAT as a bitmask](https://github.com/mavlink/mavlink/pull/2687) <sub>in review, opened Nov 22, 2026</sub>
-
 #### [Flight Review](https://github.com/PX4/flight_review)
 Web log viewer behind logs.px4.io: Airspeed plot and airspeed temperature restored for logs from newer PX4 releases.
 
@@ -85,12 +92,6 @@ MAVLink proxy and command-line ground station: console completion fixes.
 MAVLink to ROS 2 bridge: missing PX4 custom flight modes, including the Position Slow and Orbit sub modes.
 
 - ✅ [mavros: add missing PX4 custom modes and POSCTL sub modes](https://github.com/mavlink/mavros/pull/2371) <sub>merged Nov 21, 2026</sub>
-
-#### [ulog_cpp](https://github.com/PX4/ulog_cpp)
-C++ ULog reader and writer: string read fix for empty info messages, found by cross-checking five ULog parsers.
-
-- ⏳ [feat: read appended data](https://github.com/PX4/ulog_cpp/pull/24) <sub>in review, opened Nov 20, 2026</sub>
-- ✅ [fix: check the length limit before reading in strnlen](https://github.com/PX4/ulog_cpp/pull/23) <sub>merged Nov 20, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
