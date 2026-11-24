@@ -18,7 +18,22 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**77** pull requests to **21** projects · ✅ 55 merged · ⏳ 17 in review · 📝 1 draft · ✖️ 4 closed
+**77** pull requests to **21** projects · ✅ 58 merged · ⏳ 14 in review · 📝 1 draft · ✖️ 4 closed
+
+#### [pyulog](https://github.com/PX4/pyulog)
+Python ULog parser: data messages that log their trailing padding field, found by cross-checking five ULog parsers.
+
+- ✅ [core: accept data with its trailing padding field logged](https://github.com/PX4/pyulog/pull/131) <sub>merged Nov 24, 2026</sub>
+- ✅ [ci: drop Python 3.9 and test on Python 3.15](https://github.com/PX4/pyulog/pull/132) <sub>merged Nov 24, 2026</sub>
+
+#### [PX4 ROS 2 Interface Library](https://github.com/Auterion/px4-ros2-interface-lib)
+C++ library for controlling PX4 from ROS 2: release branches pinned to the matching px4_msgs branch, odometry docs.
+
+- ✅ [ci: pin px4_msgs to the release branch when creating one](https://github.com/Auterion/px4-ros2-interface-lib/pull/243) <sub>merged Nov 24, 2026</sub>
+- ✅ [fix(build): pin px4_msgs to release/1.16](https://github.com/Auterion/px4-ros2-interface-lib/pull/247) <sub>merged Nov 20, 2026</sub>
+- ✅ [fix(build): pin px4_msgs to release/1.17](https://github.com/Auterion/px4-ros2-interface-lib/pull/246) <sub>merged Nov 20, 2026</sub>
+- ✅ [fix(build): pin px4_msgs to release/1.18](https://github.com/Auterion/px4-ros2-interface-lib/pull/245) <sub>merged Nov 20, 2026</sub>
+- ✅ [docs(odometry): note that vehicle_angular_velocity is not bridged by default](https://github.com/Auterion/px4-ros2-interface-lib/pull/244) <sub>merged Nov 20, 2026</sub>
 
 #### [MCAP](https://github.com/foxglove/mcap)
 Robotics log file format with readers in six languages: cross-language scan of spec edge cases, Swift streamed reader fix for empty chunks.
@@ -76,21 +91,6 @@ C++ ULog reader and writer: string read fix for empty info messages, found by cr
 
 - ⏳ [feat: read appended data](https://github.com/PX4/ulog_cpp/pull/24) <sub>in review, opened Nov 20, 2026</sub>
 - ✅ [fix: check the length limit before reading in strnlen](https://github.com/PX4/ulog_cpp/pull/23) <sub>merged Nov 20, 2026</sub>
-
-#### [pyulog](https://github.com/PX4/pyulog)
-Python ULog parser: data messages that log their trailing padding field, found by cross-checking five ULog parsers.
-
-- ⏳ [ci: drop Python 3.9 and test on Python 3.15](https://github.com/PX4/pyulog/pull/132) <sub>in review, opened Nov 20, 2026</sub>
-- ⏳ [core: accept data with its trailing padding field logged](https://github.com/PX4/pyulog/pull/131) <sub>in review, opened Nov 20, 2026</sub>
-
-#### [PX4 ROS 2 Interface Library](https://github.com/Auterion/px4-ros2-interface-lib)
-C++ library for controlling PX4 from ROS 2: release branches pinned to the matching px4_msgs branch, odometry docs.
-
-- ✅ [fix(build): pin px4_msgs to release/1.16](https://github.com/Auterion/px4-ros2-interface-lib/pull/247) <sub>merged Nov 20, 2026</sub>
-- ✅ [fix(build): pin px4_msgs to release/1.17](https://github.com/Auterion/px4-ros2-interface-lib/pull/246) <sub>merged Nov 20, 2026</sub>
-- ✅ [fix(build): pin px4_msgs to release/1.18](https://github.com/Auterion/px4-ros2-interface-lib/pull/245) <sub>merged Nov 20, 2026</sub>
-- ✅ [docs(odometry): note that vehicle_angular_velocity is not bridged by default](https://github.com/Auterion/px4-ros2-interface-lib/pull/244) <sub>merged Nov 20, 2026</sub>
-- ⏳ [ci: pin px4_msgs to the release branch when creating one](https://github.com/Auterion/px4-ros2-interface-lib/pull/243) <sub>in review, opened Nov 19, 2026</sub>
 
 #### [PX4 Autopilot](https://github.com/PX4/PX4-Autopilot)
 Drone flight stack: v1.17 to v1.18 upgrade path (parameter migration script, upgrade notes, EKF2 and heater settings), parameter metadata, board config cleanup and Offboard fixes.
