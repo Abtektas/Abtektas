@@ -24,7 +24,32 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**79** pull requests to **22** projects · ✅ 60 merged · ⏳ 14 in review · 📝 1 draft · ✖️ 4 closed
+**81** pull requests to **23** projects · ✅ 62 merged · 👍 1 approved · ⏳ 13 in review · 📝 1 draft · ✖️ 4 closed
+
+#### [ArduPilot](https://github.com/ArduPilot/ardupilot)
+Drone flight stack: QuadPlane tailsitter setup, SITL autotest and HAL test fixes.
+
+- ⏳ [Sub: fix two motor detection problems and add a MotorDetect autotest](https://github.com/ArduPilot/ardupilot/pull/35388) <sub>in review, opened Nov 25, 2026</sub>
+- ✅ [autotest: fix and re-enable Plane.TerrainRally](https://github.com/ArduPilot/ardupilot/pull/34517) <sub>merged Oct 12, 2026</sub>
+- ⏳ [Plane: set tailsitter enable before creating the VTOL AHRS view](https://github.com/ArduPilot/ardupilot/pull/34643) <sub>in review, opened Oct 6, 2026</sub>
+- ✅ [AP_HAL: fix DSP_test reading past the end of gyro_frames](https://github.com/ArduPilot/ardupilot/pull/34502) <sub>merged Oct 6, 2026</sub>
+
+#### [rust-mavlink](https://github.com/mavlink/rust-mavlink)
+MAVLink implementation written in Rust
+
+- 👍 [bindgen: keep unknown enum values in an Unknown variant](https://github.com/mavlink/rust-mavlink/pull/580) <sub>approved, opened Nov 25, 2026</sub>
+
+#### [pyulog](https://github.com/PX4/pyulog)
+Python ULog parser: data messages with their trailing padding field logged and data in appended sections, found by cross-checking five ULog parsers; CI on current Python versions.
+
+- ✅ [core: read data messages in the appended data sections](https://github.com/PX4/pyulog/pull/135) <sub>merged Nov 25, 2026</sub>
+- ✅ [core: accept data with its trailing padding field logged](https://github.com/PX4/pyulog/pull/131) <sub>merged Nov 24, 2026</sub>
+- ✅ [ci: drop Python 3.9 and test on Python 3.15](https://github.com/PX4/pyulog/pull/132) <sub>merged Nov 24, 2026</sub>
+
+#### [Flight Review](https://github.com/PX4/flight_review)
+Web log viewer behind logs.px4.io: Airspeed plot and airspeed temperature restored for logs from newer PX4 releases.
+
+- ✅ [fix(plots): restore the Airspeed plot for PX4 v1.17+ logs](https://github.com/PX4/flight_review/pull/356) <sub>merged Nov 25, 2026</sub>
 
 #### [MAVLink Developer Guide](https://github.com/mavlink/mavlink-devguide)
 MAVLink developer guide: the system ID page names ArduPilot 4.7's MAV_SYSID instead of the renamed SYSID_THISMAV, with a link that resolves again.
@@ -35,13 +60,6 @@ MAVLink developer guide: the system ID page names ArduPilot 4.7's MAV_SYSID inst
 MAVLink message definitions: TUNE_FORMAT marked as a bitmask, so strict-enum parsers such as rust-mavlink accept vehicles that support both tune formats.
 
 - ✅ [common: mark TUNE_FORMAT as a bitmask](https://github.com/mavlink/mavlink/pull/2687) <sub>merged Nov 24, 2026</sub>
-
-#### [pyulog](https://github.com/PX4/pyulog)
-Python ULog parser: data messages with their trailing padding field logged and data in appended sections, found by cross-checking five ULog parsers; CI on current Python versions.
-
-- ⏳ [core: read data messages in the appended data sections](https://github.com/PX4/pyulog/pull/135) <sub>in review, opened Nov 24, 2026</sub>
-- ✅ [core: accept data with its trailing padding field logged](https://github.com/PX4/pyulog/pull/131) <sub>merged Nov 24, 2026</sub>
-- ✅ [ci: drop Python 3.9 and test on Python 3.15](https://github.com/PX4/pyulog/pull/132) <sub>merged Nov 24, 2026</sub>
 
 #### [ulog_cpp](https://github.com/PX4/ulog_cpp)
 C++ ULog reader and writer: reading appended data and a bounds check in the string reader, found by cross-checking five ULog parsers.
@@ -76,11 +94,6 @@ ArduPilot documentation: pages updated to current parameter names (4.7 position 
 - ✅ [Plane: use the 4.7 Q_P_D_POS_P name in altitude tuning](https://github.com/ArduPilot/ardupilot_wiki/pull/8263) <sub>merged Nov 10, 2026</sub>
 - ✅ [Dev: use the 4.7 rangefinder MIN and MAX names in SITL examples](https://github.com/ArduPilot/ardupilot_wiki/pull/8254) <sub>merged Nov 9, 2026</sub>
 - ✅ [Common, Sub: use the 4.7 position controller parameter names](https://github.com/ArduPilot/ardupilot_wiki/pull/8253) <sub>merged Nov 8, 2026</sub>
-
-#### [Flight Review](https://github.com/PX4/flight_review)
-Web log viewer behind logs.px4.io: Airspeed plot and airspeed temperature restored for logs from newer PX4 releases.
-
-- ⏳ [fix(plots): restore the Airspeed plot for PX4 v1.17+ logs](https://github.com/PX4/flight_review/pull/356) <sub>in review, opened Nov 22, 2026</sub>
 
 #### [gomavlib](https://github.com/bluenviron/gomavlib)
 Go MAVLink library: CRC extra of messages with a single char field, found by cross-checking every message against pymavlink.
@@ -154,13 +167,6 @@ Ground control station: MAVLink COMMAND_INT support, flight-mode list and missio
 - ✖️ [test(Vehicle): port SetHomeTest to the current GPS position API](https://github.com/mavlink/qgroundcontrol/pull/15311) <sub>closed Oct 16, 2026</sub>
 - ✅ [fix(Vehicle): send DO_SET_HOME as COMMAND_INT when supported](https://github.com/mavlink/qgroundcontrol/pull/15186) <sub>merged Oct 15, 2026</sub>
 - ✅ [fix(MissionManager): restore mission commands lost to broken enum translations](https://github.com/mavlink/qgroundcontrol/pull/15185) <sub>merged Sep 29, 2026</sub>
-
-#### [ArduPilot](https://github.com/ArduPilot/ardupilot)
-Drone flight stack: QuadPlane tailsitter setup, SITL autotest and HAL test fixes.
-
-- ✅ [autotest: fix and re-enable Plane.TerrainRally](https://github.com/ArduPilot/ardupilot/pull/34517) <sub>merged Oct 12, 2026</sub>
-- ⏳ [Plane: set tailsitter enable before creating the VTOL AHRS view](https://github.com/ArduPilot/ardupilot/pull/34643) <sub>in review, opened Oct 6, 2026</sub>
-- ✅ [AP_HAL: fix DSP_test reading past the end of gyro_frames](https://github.com/ArduPilot/ardupilot/pull/34502) <sub>merged Oct 6, 2026</sub>
 
 #### [Magistrala](https://github.com/absmach/magistrala)
 IoT platform: message reader time bounds, CLI docs and certificate Makefile fixes.
