@@ -24,7 +24,12 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**78** pull requests to **21** projects · ✅ 60 merged · ⏳ 13 in review · 📝 1 draft · ✖️ 4 closed
+**79** pull requests to **22** projects · ✅ 60 merged · ⏳ 14 in review · 📝 1 draft · ✖️ 4 closed
+
+#### [MAVLink Developer Guide](https://github.com/mavlink/mavlink-devguide)
+MAVLink developer guide: the system ID page names ArduPilot 4.7's MAV_SYSID instead of the renamed SYSID_THISMAV, with a link that resolves again.
+
+- ⏳ [mavlink_id_assignment: ArduPilot system ID parameter is MAV_SYSID since 4.7](https://github.com/mavlink/mavlink-devguide/pull/804) <sub>in review, opened Nov 25, 2026</sub>
 
 #### [MAVLink](https://github.com/mavlink/mavlink)
 MAVLink message definitions: TUNE_FORMAT marked as a bitmask, so strict-enum parsers such as rust-mavlink accept vehicles that support both tune formats.
