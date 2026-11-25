@@ -32,14 +32,14 @@ MAVLink message definitions: TUNE_FORMAT marked as a bitmask, so strict-enum par
 - ✅ [common: mark TUNE_FORMAT as a bitmask](https://github.com/mavlink/mavlink/pull/2687) <sub>merged Nov 24, 2026</sub>
 
 #### [pyulog](https://github.com/PX4/pyulog)
-Python ULog parser: data messages that log their trailing padding field, found by cross-checking five ULog parsers.
+Python ULog parser: data messages with their trailing padding field logged and data in appended sections, found by cross-checking five ULog parsers; CI on current Python versions.
 
 - ⏳ [core: read data messages in the appended data sections](https://github.com/PX4/pyulog/pull/135) <sub>in review, opened Nov 24, 2026</sub>
 - ✅ [core: accept data with its trailing padding field logged](https://github.com/PX4/pyulog/pull/131) <sub>merged Nov 24, 2026</sub>
 - ✅ [ci: drop Python 3.9 and test on Python 3.15](https://github.com/PX4/pyulog/pull/132) <sub>merged Nov 24, 2026</sub>
 
 #### [ulog_cpp](https://github.com/PX4/ulog_cpp)
-C++ ULog reader and writer: string read fix for empty info messages, found by cross-checking five ULog parsers.
+C++ ULog reader and writer: reading appended data and a bounds check in the string reader, found by cross-checking five ULog parsers.
 
 - ✅ [feat: read appended data](https://github.com/PX4/ulog_cpp/pull/24) <sub>merged Nov 24, 2026</sub>
 - ✅ [fix: check the length limit before reading in strnlen](https://github.com/PX4/ulog_cpp/pull/23) <sub>merged Nov 20, 2026</sub>
@@ -59,7 +59,7 @@ Robotics log file format with readers in six languages: cross-language scan of s
 - ✅ [swift: read chunks that end without a record to emit](https://github.com/foxglove/mcap/pull/1941) <sub>merged Nov 23, 2026</sub>
 
 #### [ArduPilot Wiki](https://github.com/ArduPilot/ardupilot_wiki)
-ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped.
+ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID), removed ones dropped and SITL examples fixed.
 
 - ✖️ [Dev: EKF2: use the current parameter names and fix parameter facts](https://github.com/ArduPilot/ardupilot_wiki/pull/8333) <sub>closed Nov 23, 2026</sub>
 - ✅ [Dev: SITL parameters: fix the vibration testing example](https://github.com/ArduPilot/ardupilot_wiki/pull/8328) <sub>merged Nov 22, 2026</sub>
@@ -88,7 +88,7 @@ Symbolic regression library: pandas DataFrame column-name handling.
 - ✅ [fix: keep DataFrame column names that are str subclasses](https://github.com/astroautomata/PySR/pull/1441) <sub>merged Nov 22, 2026</sub>
 
 #### [MAVProxy](https://github.com/ArduPilot/MAVProxy)
-MAVLink proxy and command-line ground station: console completion fixes.
+MAVLink proxy and command-line ground station: console completion, the OpenDroneID timestamp and current parameter names in modules.
 
 - ⏳ [tuneopt, misc, instructor: use current parameter names](https://github.com/ArduPilot/MAVProxy/pull/1801) <sub>in review, opened Nov 21, 2026</sub>
 - ✅ [OpenDroneID: use the UTC epoch for the 2019 timestamp](https://github.com/ArduPilot/MAVProxy/pull/1767) <sub>merged Oct 8, 2026</sub>
@@ -189,4 +189,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 24, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 25, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
