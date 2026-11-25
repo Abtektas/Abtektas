@@ -9,7 +9,7 @@
   },
   "ArduPilot/ardupilot_wiki": {
     "name": "ArduPilot Wiki",
-    "summary": "ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID) and removed ones dropped."
+    "summary": "ArduPilot documentation: pages updated to current parameter names (4.7 position controller, rangefinder and QuadPlane tuning, 4.5 relay pins, GPS and MAV_SYSID), removed ones dropped and SITL examples fixed."
   },
   "mavlink/qgroundcontrol": {
     "name": "QGroundControl",
@@ -25,7 +25,7 @@
   },
   "ArduPilot/MAVProxy": {
     "name": "MAVProxy",
-    "summary": "MAVLink proxy and command-line ground station: console completion fixes."
+    "summary": "MAVLink proxy and command-line ground station: console completion, the OpenDroneID timestamp and current parameter names in modules."
   },
   "absmach/magistrala": {
     "name": "Magistrala",
@@ -73,11 +73,11 @@
   },
   "PX4/ulog_cpp": {
     "name": "ulog_cpp",
-    "summary": "C++ ULog reader and writer: string read fix for empty info messages, found by cross-checking five ULog parsers."
+    "summary": "C++ ULog reader and writer: reading appended data and a bounds check in the string reader, found by cross-checking five ULog parsers."
   },
   "PX4/pyulog": {
     "name": "pyulog",
-    "summary": "Python ULog parser: data messages that log their trailing padding field, found by cross-checking five ULog parsers."
+    "summary": "Python ULog parser: data messages with their trailing padding field logged and data in appended sections, found by cross-checking five ULog parsers; CI on current Python versions."
   },
   "mavlink/mavlink": {
     "name": "MAVLink",
