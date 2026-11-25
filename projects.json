@@ -82,5 +82,9 @@
   "mavlink/mavlink": {
     "name": "MAVLink",
     "summary": "MAVLink message definitions: TUNE_FORMAT marked as a bitmask, so strict-enum parsers such as rust-mavlink accept vehicles that support both tune formats."
+  },
+  "mavlink/mavlink-devguide": {
+    "name": "MAVLink Developer Guide",
+    "summary": "MAVLink developer guide: the system ID page names ArduPilot 4.7's MAV_SYSID instead of the renamed SYSID_THISMAV, with a link that resolves again."
   }
 }
