@@ -24,7 +24,12 @@ Read-only macOS check for hidden crypto miners (XMRig) and the LaunchAgents that
 ### Open-source contributions
 
 <!-- CONTRIBUTIONS:START -->
-**81** pull requests to **23** projects · ✅ 62 merged · 👍 1 approved · ⏳ 13 in review · 📝 1 draft · ✖️ 4 closed
+**81** pull requests to **23** projects · ✅ 63 merged · 👍 1 approved · ⏳ 12 in review · 📝 1 draft · ✖️ 4 closed
+
+#### [MAVLink Developer Guide](https://github.com/mavlink/mavlink-devguide)
+MAVLink developer guide: the system ID page names ArduPilot 4.7's MAV_SYSID instead of the renamed SYSID_THISMAV, with a link that resolves again.
+
+- ✅ [mavlink_id_assignment: ArduPilot system ID parameter is MAV_SYSID since 4.7](https://github.com/mavlink/mavlink-devguide/pull/804) <sub>merged Nov 26, 2026</sub>
 
 #### [ArduPilot](https://github.com/ArduPilot/ardupilot)
 Drone flight stack: QuadPlane tailsitter setup, SITL autotest and HAL test fixes.
@@ -50,11 +55,6 @@ Python ULog parser: data messages with their trailing padding field logged and d
 Web log viewer behind logs.px4.io: Airspeed plot and airspeed temperature restored for logs from newer PX4 releases.
 
 - ✅ [fix(plots): restore the Airspeed plot for PX4 v1.17+ logs](https://github.com/PX4/flight_review/pull/356) <sub>merged Nov 25, 2026</sub>
-
-#### [MAVLink Developer Guide](https://github.com/mavlink/mavlink-devguide)
-MAVLink developer guide: the system ID page names ArduPilot 4.7's MAV_SYSID instead of the renamed SYSID_THISMAV, with a link that resolves again.
-
-- ⏳ [mavlink_id_assignment: ArduPilot system ID parameter is MAV_SYSID since 4.7](https://github.com/mavlink/mavlink-devguide/pull/804) <sub>in review, opened Nov 25, 2026</sub>
 
 #### [MAVLink](https://github.com/mavlink/mavlink)
 MAVLink message definitions: TUNE_FORMAT marked as a bitmask, so strict-enum parsers such as rust-mavlink accept vehicles that support both tune formats.
@@ -200,4 +200,4 @@ Local LLM runtime: MLX runner and Gemma 4 mixture-of-experts loading on Apple Si
 - ⏳ [mlxrunner: load gemma4 experts in the mlx-lm switch_glu layout](https://github.com/ollama/ollama/pull/18631) <sub>in review, opened Sep 24, 2026</sub>
 <!-- CONTRIBUTIONS:END -->
 
-<sub>Last updated Nov 25, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
+<sub>Last updated Nov 26, 2026 by [GitHub Actions](.github/workflows/update-readme.yml)</sub>
